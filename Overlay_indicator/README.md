@@ -29,3 +29,6 @@ self.showSpinner(onView: self.view, text: "Loading..")
 // remove
 self.removeSpinner()
 ```
+### Usage
+
+just put the `src/indicator.swift` file into your project and call the methods above.
