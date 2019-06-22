@@ -2,7 +2,7 @@
 
 The source code is adapted from [here](https://www.raywenderlich.com/1032630-kitura-stencil-tutorial-how-to-make-websites-with-swift).
 
-For environment setup and cloud configuration and deployment, please refer to [Setup steps](/SETUP.md) for details.
+For environment setup and cloud configuration and deployment, please refer to [Setup steps](./SETUP.md) for details.
 
 ## Additional setup notes
 
