@@ -3,3 +3,4 @@
 *.coffee linguist-vendored
 *.sh linguist-vendored
 *.tf linguist-vendored
+Dockerfile linguist-vendored
