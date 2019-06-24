@@ -1,0 +1,6 @@
+framework module SwiftyRequest {
+  umbrella header "SwiftyRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

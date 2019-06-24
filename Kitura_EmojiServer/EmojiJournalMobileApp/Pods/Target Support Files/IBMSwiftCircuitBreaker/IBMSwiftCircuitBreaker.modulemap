@@ -1,0 +1,6 @@
+framework module CircuitBreaker {
+  umbrella header "IBMSwiftCircuitBreaker-umbrella.h"
+
+  export *
+  module * { export * }
+}

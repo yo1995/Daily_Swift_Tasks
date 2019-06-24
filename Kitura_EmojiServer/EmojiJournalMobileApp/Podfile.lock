@@ -1,0 +1,38 @@
+PODS:
+  - IBMSwiftCircuitBreaker (5.0.1):
+    - LoggerAPI (~> 1.7)
+  - ISEmojiView (0.0.6)
+  - KituraContracts (1.1.2):
+    - LoggerAPI (~> 1.7)
+  - KituraKit (0.0.23):
+    - KituraContracts (~> 1.1)
+    - SwiftyRequest (~> 2.0)
+  - LoggerAPI (1.8.1)
+  - SwiftyRequest (2.0.6):
+    - IBMSwiftCircuitBreaker (~> 5.0)
+    - LoggerAPI (~> 1.7)
+
+DEPENDENCIES:
+  - ISEmojiView (= 0.0.6)
+  - KituraKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IBMSwiftCircuitBreaker
+    - ISEmojiView
+    - KituraContracts
+    - KituraKit
+    - LoggerAPI
+    - SwiftyRequest
+
+SPEC CHECKSUMS:
+  IBMSwiftCircuitBreaker: d85929ca34eeec50bf84760fc07348111d6f4010
+  ISEmojiView: 2ab7c5ad9c58a318cefcf407af374464ccc56f1d
+  KituraContracts: fdb9576d40d1ac737765128158bfd412705b1c3b
+  KituraKit: 6ba9557461bc3a287352f0987c7ce8340242fc2e
+  LoggerAPI: 7a807a0c8f512973f307a9cd226dba1bfdf3e3a7
+  SwiftyRequest: 64cd713bf59151e19c4c5ff59edc35bb4e4dac04
+
+PODFILE CHECKSUM: e0a8bbd02fb0deb608725afbebe28aa50534de4b
+
+COCOAPODS: 1.6.1
