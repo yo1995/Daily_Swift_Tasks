@@ -21,10 +21,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="journalBackground" translatesAutoresizingMaskIntoConstraints="NO" id="pLW-CC-vnF">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-eN-AEx">
-                                <rect key="frame" x="144" y="484" width="160" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <state key="normal" title="______________________&gt;&gt;">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-eN-AEx">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <state key="normal">
                                     <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -34,9 +33,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="97b-wz-mQj" firstAttribute="bottom" secondItem="Sjh-eN-AEx" secondAttribute="bottom" id="9mF-7S-c9a"/>
                             <constraint firstItem="97b-wz-mQj" firstAttribute="bottom" secondItem="pLW-CC-vnF" secondAttribute="bottom" id="Z4U-Va-IKh"/>
+                            <constraint firstItem="Sjh-eN-AEx" firstAttribute="top" secondItem="97b-wz-mQj" secondAttribute="top" id="dDH-Id-C3R"/>
                             <constraint firstItem="pLW-CC-vnF" firstAttribute="top" secondItem="97b-wz-mQj" secondAttribute="top" id="hZj-kb-DkF"/>
                             <constraint firstItem="97b-wz-mQj" firstAttribute="trailing" secondItem="pLW-CC-vnF" secondAttribute="trailing" id="iL1-9q-qWp"/>
+                            <constraint firstItem="Sjh-eN-AEx" firstAttribute="leading" secondItem="97b-wz-mQj" secondAttribute="leading" id="mlL-oU-N6c"/>
+                            <constraint firstItem="97b-wz-mQj" firstAttribute="trailing" secondItem="Sjh-eN-AEx" secondAttribute="trailing" id="tda-U6-Pds"/>
                             <constraint firstItem="pLW-CC-vnF" firstAttribute="leading" secondItem="97b-wz-mQj" secondAttribute="leading" id="zyz-ff-hfU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="97b-wz-mQj"/>
