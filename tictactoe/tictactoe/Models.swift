@@ -33,6 +33,7 @@ enum Piece: String {
 
 
 struct Board {
+    
     let position: [Piece]
     let turn: Piece
     let lastMove: Int
@@ -212,11 +213,6 @@ struct Board {
         }
     }
     
-    
-    var legalMoves: [Int] {
-        return position.indices.filter { position[$0] == .E }
-    }
-    
     private var winningCombos: [[Int]] {
         /*
          0 | 1 | 2
@@ -232,6 +228,10 @@ struct Board {
         ]
     }
     
+    var legalMoves: [Int] {
+        return position.indices.filter { position[$0] == .E }
+    }
+    
     var isWin: Bool {
         for combo in winningCombos {
             if position[combo[0]] == position[combo[1]] && position[combo[0]] == position[combo[2]] && position[combo[0]] != .E {
@@ -239,18 +239,6 @@ struct Board {
             }
         }
         return false
-    }
-    
-    var isWinCombine: Bool {
-        return
-            position[0] == position[1] && position[0] == position[2] && position[0] != .E || // row 0
-                position[3] == position[4] && position[3] == position[5] && position[3] != .E || // row 1
-                position[6] == position[7] && position[6] == position[8] && position[6] != .E || // row 2
-                position[0] == position[3] && position[0] == position[6] && position[0] != .E || // col 0
-                position[1] == position[4] && position[1] == position[7] && position[1] != .E || // col 1
-                position[2] == position[5] && position[2] == position[8] && position[2] != .E || // col 2
-                position[0] == position[4] && position[0] == position[8] && position[0] != .E || // diag 0
-                position[2] == position[4] && position[2] == position[6] && position[2] != .E // diag 1
     }
     
     var isDraw: Bool {

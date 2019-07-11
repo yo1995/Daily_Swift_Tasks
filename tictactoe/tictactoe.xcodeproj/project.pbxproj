@@ -15,7 +15,6 @@
 		D42322BA22D151A400520658 /* BoardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42322B922D151A400520658 /* BoardPage.swift */; };
 		D42322BC22D1544E00520658 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42322BB22D1544E00520658 /* Models.swift */; };
 		D42322BE22D1578600520658 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42322BD22D1578600520658 /* Utils.swift */; };
-		D42322C022D1593300520658 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42322BF22D1593300520658 /* Controllers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		D42322B922D151A400520658 /* BoardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardPage.swift; sourceTree = "<group>"; };
 		D42322BB22D1544E00520658 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		D42322BD22D1578600520658 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		D42322BF22D1593300520658 /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +68,6 @@
 				D42322A922D1413500520658 /* MenuPage.swift */,
 				D42322B922D151A400520658 /* BoardPage.swift */,
 				D42322BB22D1544E00520658 /* Models.swift */,
-				D42322BF22D1593300520658 /* Controllers.swift */,
 				D42322BD22D1578600520658 /* Utils.swift */,
 			);
 			path = tictactoe;
@@ -148,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42322BE22D1578600520658 /* Utils.swift in Sources */,
-				D42322C022D1593300520658 /* Controllers.swift in Sources */,
 				D42322AA22D1413500520658 /* MenuPage.swift in Sources */,
 				D42322BA22D151A400520658 /* BoardPage.swift in Sources */,
 				D42322A822D1413500520658 /* AppDelegate.swift in Sources */,

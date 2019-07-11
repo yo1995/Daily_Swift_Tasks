@@ -18,6 +18,13 @@ func debugAlert(VC: UIViewController, title: String, msg: String) {
     }
 }
 
+/// debug alert box with completion closure
+///
+/// - Parameters:
+///   - VC: the ViewController to present on
+///   - title: alert title
+///   - msg: alert message
+///   - completion: alert completion handler
 func debugAlertCompletion(VC: UIViewController, title: String, msg: String, completion: @escaping () -> Void) {
     DispatchQueue.main.async {  // Make sure you're on the main thread here, so no warnings and exceptions will be thrown
         let alert = UIAlertController(title: title, message: msg, preferredStyle: UIAlertController.Style.alert)

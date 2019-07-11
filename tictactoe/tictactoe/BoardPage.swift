@@ -26,7 +26,7 @@ class BoardPage: UIViewController {
     var isFirstMove: Bool = true
     
     /// an array to keep track of all the programmatically created buttons
-    var boardButtonArray: [BoardButton] = []
+    var boardButtonArray: [UIButton] = []
     
     /// the tic tac toe game board
     var board: Board!
@@ -79,12 +79,12 @@ class BoardPage: UIViewController {
             let Y = CGFloat(col) * boardButtonWidth + y
             
             let boardButtonFrame = CGRect(x: X, y: Y, width: boardButtonWidth, height: boardButtonWidth)
-            let button = BoardButton(frame: boardButtonFrame, id: i)
+            let button = UIButton(frame: boardButtonFrame)
             button.tag = i
             button.backgroundColor = UIColor(valueRGB: i % 2 == 0 ? 0x666666 : 0xCCCCCC, alpha: 1)
             button.layer.cornerRadius = 5
             button.titleLabel?.frame = CGRect(x: CGFloat.zero, y: CGFloat.zero, width: boardButtonWidth, height: boardButtonWidth)
-            button.titleLabel?.font = .systemFont(ofSize: boardButtonWidth / 3)
+            button.titleLabel?.font = .systemFont(ofSize: boardButtonWidth / 2)
             button.setTitle(Piece.E.rawValue, for: .normal)
             button.showsTouchWhenHighlighted = true
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
@@ -100,12 +100,12 @@ extension BoardPage {
     /// The action when a board block is tapped.
     ///
     /// - Parameter sender: the button entity
-    @objc func buttonTapped(sender: BoardButton) {
+    @objc func buttonTapped(sender: UIButton) {
         sender.isEnabled = false  // cannot be clicked after done
         self.view.isUserInteractionEnabled = false  // disable all event until the calculation is done
         
-        self.board = self.board.move(sender.id)
-        self.boardButtonArray[sender.id].setTitle(self.board.position[sender.id].rawValue, for: .normal)
+        self.board = self.board.move(sender.tag)
+        self.boardButtonArray[sender.tag].setTitle(self.board.position[sender.tag].rawValue, for: .normal)
         self.boardPageLabel.text = "Player \(self.board.turn)'s turn"
         
         let complete = {
