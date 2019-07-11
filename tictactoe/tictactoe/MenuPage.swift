@@ -14,7 +14,7 @@ class MenuPage: UIViewController {
     
     var difficultyLevel: difficultyLevels = .easy  // default to easy level
     
-    @IBAction func DifficultyButtonTapped(_ sender: Any) {
+    @IBAction func DifficultyButtonTapped(_ sender: UIButton) {
         let alert = UIAlertController(title: "Please choose difficulty level", message: "", preferredStyle: UIAlertController.Style.actionSheet)
         let random = UIAlertAction(title: "Easy (Smart Random)", style: .default, handler: { _ in
             self.difficultyLevel = .easy
@@ -33,6 +33,7 @@ class MenuPage: UIViewController {
         alert.addAction(greed)
         alert.addAction(minmax)
         alert.addAction(cancel)
+        alert.popoverPresentationController?.sourceView = sender  // for iPad only
         self.present(alert, animated: true, completion: nil)
         return
     }
