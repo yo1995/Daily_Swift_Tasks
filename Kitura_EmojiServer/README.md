@@ -49,3 +49,9 @@ The scripts are hardcoded in the `./Views/home.stencil` file. Please check and m
 
 The app should compile with ~50 dependencies and run, logging with one warning regarding the cloud environment setup. If any error happens to appear, please open an issue to report them.
 
+---
+
+## Build the app
+
+xcodebuild -workspace EmojiJournalMobileApp.xcworkspace -scheme DukeAppStore clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+
