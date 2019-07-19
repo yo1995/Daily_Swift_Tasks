@@ -227,6 +227,7 @@
 				"${BUILT_PRODUCTS_DIR}/KituraContracts/KituraContracts.framework",
 				"${BUILT_PRODUCTS_DIR}/KituraKit/KituraKit.framework",
 				"${BUILT_PRODUCTS_DIR}/LoggerAPI/LoggerAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyRequest/SwiftyRequest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -236,6 +237,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KituraContracts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KituraKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoggerAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRequest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

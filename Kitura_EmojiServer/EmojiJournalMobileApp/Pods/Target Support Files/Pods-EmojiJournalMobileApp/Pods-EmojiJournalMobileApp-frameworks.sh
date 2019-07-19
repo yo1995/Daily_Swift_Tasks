@@ -158,6 +158,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KituraContracts/KituraContracts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KituraKit/KituraKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LoggerAPI/LoggerAPI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Logging/Logging.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyRequest/SwiftyRequest.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -166,6 +167,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/KituraContracts/KituraContracts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/KituraKit/KituraKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/LoggerAPI/LoggerAPI.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Logging/Logging.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyRequest/SwiftyRequest.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
