@@ -21,7 +21,9 @@ class AddEmojiViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let emojiView = ISEmojiView()
+        let keyboardSettings = KeyboardSettings(bottomType: .categories)
+        let emojiView = EmojiView(keyboardSettings: keyboardSettings)
+        emojiView.translatesAutoresizingMaskIntoConstraints = false
         emojiView.delegate = self
         emojiTextField.inputView = emojiView
         if let existingEntry = existingEntry {
@@ -31,14 +33,14 @@ class AddEmojiViewController: UIViewController {
     }
 }
 
-// MARK: - AddEmojiViewController ISEmojiViewDelegate
-extension AddEmojiViewController: ISEmojiViewDelegate {
-    func emojiViewDidSelectEmoji(emojiView: ISEmojiView, emoji: String) {
+// MARK: - AddEmojiViewController EmojiViewDelegate
+extension AddEmojiViewController: EmojiViewDelegate {
+    func emojiViewDidSelectEmoji(_ emoji: String, emojiView: EmojiView) {
         emojiTextField.text = emoji
         emojiTextField.resignFirstResponder()
     }
     
-    func emojiViewDidPressDeleteButton(emojiView: ISEmojiView) {
+    func emojiViewDidPressDeleteButton(emojiView: EmojiView) {
         emojiTextField.text = ""
     }
 }

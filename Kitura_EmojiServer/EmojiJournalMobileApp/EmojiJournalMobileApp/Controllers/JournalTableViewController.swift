@@ -297,7 +297,9 @@ extension JournalTableViewController {
                 return
             }
             strongSelf.emojiSearchTextField = textField
-            let emojiView = ISEmojiView()
+            let keyboardSettings = KeyboardSettings(bottomType: .categories)
+            let emojiView = EmojiView(keyboardSettings: keyboardSettings)
+            emojiView.translatesAutoresizingMaskIntoConstraints = false
             emojiView.delegate = self
             textField.inputView = emojiView
             textField.becomeFirstResponder()
@@ -307,14 +309,14 @@ extension JournalTableViewController {
 }
 
 // MARK - Search Functionality Emoji Delegate
-extension JournalTableViewController: ISEmojiViewDelegate {
-    func emojiViewDidSelectEmoji(emojiView: ISEmojiView, emoji: String) {
+extension JournalTableViewController: EmojiViewDelegate {
+    func emojiViewDidSelectEmoji(_ emoji: String, emojiView: EmojiView) {
         if let textField = emojiSearchTextField {
             textField.text = emoji
         }
     }
     
-    func emojiViewDidPressDeleteButton(emojiView: ISEmojiView) {
+    func emojiViewDidPressDeleteButton(emojiView: EmojiView) {
         if let textField = emojiSearchTextField {
             textField.text = ""
         }
