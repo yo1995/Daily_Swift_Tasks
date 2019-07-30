@@ -46,6 +46,7 @@ class LoginPage: UIViewController {
         }
         alert.addTextField { textField in
             textField.placeholder = "password"
+            textField.isSecureTextEntry = true
         }
         
         self.present(alert, animated: true, completion: nil)
