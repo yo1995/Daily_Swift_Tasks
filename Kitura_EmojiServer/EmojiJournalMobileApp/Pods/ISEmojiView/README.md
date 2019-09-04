@@ -1,5 +1,7 @@
 ![logo](https://raw.github.com/isaced/ISEmojiView/master/logo@2x.jpg)
-[![Version](https://img.shields.io/cocoapods/v/ISEmojiView.svg?style=flat)](http://cocoapods.org/pods/ISEmojiView) [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![License](https://img.shields.io/cocoapods/l/ISEmojiView.svg?style=flat)](http://cocoapods.org/pods/ISEmojiView) [![Platform](https://img.shields.io/cocoapods/p/ISEmojiView.svg?style=flat)](http://cocoapods.org/pods/ISEmojiView)  ![Swift](https://img.shields.io/badge/%20in-swift%204.1-orange.svg)
+[![Version](https://img.shields.io/cocoapods/v/ISEmojiView.svg?style=flat)](http://cocoapods.org/pods/ISEmojiView) [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![License](https://img.shields.io/cocoapods/l/ISEmojiView.svg?style=flat)](http://cocoapods.org/pods/ISEmojiView) [![Platform](https://img.shields.io/cocoapods/p/ISEmojiView.svg?style=flat)](http://cocoapods.org/pods/ISEmojiView)  ![Swift](https://img.shields.io/badge/%20in-swift%205-orange.svg)
+
+English | [中文](/README_zh.md)
 
 An easy to use Emoji keyboard for iOS.
 
@@ -11,7 +13,7 @@ Has been rewritten with swift, the old *Objective-C* version on branch [oc](http
 
 - Written in Swift
 - Custom emojis
-- Multiple skin tone support (🏻🏼🏽🏾🏿)
+- Multiple skin tone support (  🏻 🏼 🏽 🏾 🏿 )
 - Categories bottom bar (like iOS system emoji Keyboard)
 - Recently used emoji
 
@@ -35,7 +37,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 # Swift
 pod 'ISEmojiView'
 
-# Objective-C
+# Objective-C (Deprecated)
 pod 'ISEmojiView', '0.0.1'
 ```
 

@@ -53,5 +53,8 @@ The app should compile with ~50 dependencies and run, logging with one warning r
 
 ## Build the app
 
-xcodebuild -workspace EmojiJournalMobileApp.xcworkspace -scheme DukeAppStore clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+```sh
+xcodebuild -workspace EmojiJournalMobileApp.xcworkspace -scheme DukeAppStore clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
 
+xcodebuild -workspace EmojiJournalMobileApp.xcworkspace -scheme DukeAppStore clean
+```

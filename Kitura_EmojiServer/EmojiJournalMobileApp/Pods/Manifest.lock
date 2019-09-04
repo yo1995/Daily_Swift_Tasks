@@ -1,7 +1,7 @@
 PODS:
   - IBMSwiftCircuitBreaker (5.0.1):
     - LoggerAPI (~> 1.7)
-  - ISEmojiView (0.2.2)
+  - ISEmojiView (0.2.5)
   - KituraContracts (1.1.2):
     - LoggerAPI (~> 1.7)
   - KituraKit (0.0.23):
@@ -9,7 +9,7 @@ PODS:
     - SwiftyRequest (~> 2.0)
   - LoggerAPI (1.9.0):
     - Logging (~> 1.1)
-  - Logging (1.1.0)
+  - Logging (1.1.1)
   - SwiftyRequest (2.0.6):
     - IBMSwiftCircuitBreaker (~> 5.0)
     - LoggerAPI (~> 1.7)
@@ -30,11 +30,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   IBMSwiftCircuitBreaker: d85929ca34eeec50bf84760fc07348111d6f4010
-  ISEmojiView: 3198116ef9f442857c3a69241b15e3ad7856f461
+  ISEmojiView: 5a5a41f36a97aa9ad493689be0c2636115490e60
   KituraContracts: fdb9576d40d1ac737765128158bfd412705b1c3b
   KituraKit: 6ba9557461bc3a287352f0987c7ce8340242fc2e
   LoggerAPI: fb78461eedac5316b290f2404d88b9d614d96c57
-  Logging: 0f0b5d7d124fab770fde88cf942cb57a63804236
+  Logging: c1d514914944d786e0f17a41a6431e44a88a7ec1
   SwiftyRequest: 64cd713bf59151e19c4c5ff59edc35bb4e4dac04
 
 PODFILE CHECKSUM: 49bbabc6bc1600701215096f5ff6833df1c111c1

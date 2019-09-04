@@ -52,6 +52,7 @@ internal class EmojiCollectionView: UIView {
     private lazy var emojiPopView: EmojiPopView = {
         let emojiPopView = EmojiPopView()
         emojiPopView.delegate = self
+        emojiPopView.isHidden = true
         return emojiPopView
     }()
     
@@ -170,7 +171,7 @@ extension EmojiCollectionView: UICollectionViewDelegate {
         let emojiCategory = emojis[indexPath.section]
         let emoji = emojiCategory.emojis[indexPath.item]
         
-        delegate?.emojiViewDidSelectEmoji(emojiView: self, emoji: emoji, selectedEmoji: emoji.emoji)
+        delegate?.emojiViewDidSelectEmoji(emojiView: self, emoji: emoji, selectedEmoji: emoji.selectedEmoji ?? emoji.emoji)
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {

@@ -8,127 +8,128 @@
 
 /* Begin PBXBuildFile section */
 		01A7BA578CD1A32058EC26D75E14AD45 /* CircuitBreaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA128ED65699101D646A50F9B29849 /* CircuitBreaker.swift */; };
+		0501985D5549F90B5FCCD0DE930CAC02 /* ISEmojiList_iOS10.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07337C90D68DE008BF49798D9BFD13C9 /* ISEmojiList_iOS10.plist */; };
+		051D3326FA346BAFFACBE588358B4F63 /* ic_objects.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CA4E812D8BFC3F4817721F51590DCD /* ic_objects.png */; };
 		093196130333C1E605ABD6AC5814E285 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2AEE06E33B7AA53FFBFAFDED24AED /* Logging.swift */; };
 		09F743B1E1B53EA99C8E77668F869318 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABF3E6244E102A275D7271DA311C7B2 /* MultipartFormData.swift */; };
-		0D1BC68925BF49EEA779F9D93112825D /* ic_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = BBF1F9E9F160C8E72D8853F315D71A4B /* ic_activity.png */; };
+		0D3BE35881A3C43B8E4DCEB467E321F9 /* ic_emojiDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D09FF04BE41FBECD71961A9C9946E89B /* ic_emojiDelete@3x.png */; };
 		0F8256362202BC604436ECD5304167E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
-		0FB5CA06B1C7ED10039D6076A0D88765 /* ISEmojiList_iOS11.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE7BCC6406B2E7D0A7EBFF6695CEDABA /* ISEmojiList_iOS11.plist */; };
 		1159069E962FC2287330363BCBEAB9D6 /* RestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D80D9DEA6FBA6714642C4AFC32F42 /* RestRequest.swift */; };
 		11779C544D7932815E31E37D187EA51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
+		14C3495A4839B20F471F52E7B41EDEFD /* ic_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D194FA3529A3A8F0C91BF133F450193 /* ic_activity@2x.png */; };
 		15462590F3C0A08611852EB05FE9BD6E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC232CE591E1973AEA7B580900C59BD /* Utils.swift */; };
 		1728559FC0B3B7CC791D4DD4EB682377 /* ISEmojiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */; };
-		18219B93B802365E3E0CC5020F8FBE6D /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14B790CD7EF81012D910D7657206F3 /* EmojiView.swift */; };
-		198058404D012F70AB9EF01BCB2FEB63 /* ic_food_drink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 692957A4CC3F6DF527FE03B1BA487C76 /* ic_food_drink@3x.png */; };
+		18219B93B802365E3E0CC5020F8FBE6D /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF929B5D415F4176BEFA2DA541C488A4 /* EmojiView.swift */; };
+		1A75617D7122FDE5C351A0115D53631D /* ic_food_drink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58676E95DF8C02B0A60A79170C1971BA /* ic_food_drink@3x.png */; };
+		1D41DCDFE1210CE21B4D1198FB932D14 /* ic_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = FD188AAB81A67E468B31DF3B2E7B7C85 /* ic_activity.png */; };
 		1D5BF5A054422C925DF9C751EAC381D9 /* ClosureAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF294244A8B82C1F3F4B1D473AE551E /* ClosureAliases.swift */; };
 		1DCC95C05D55795745C4FA15304B0118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
-		1F265A5625DE5393724EA1233E4D5DAF /* ic_animals_nature@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCA8DEB4070BE1F020B52B233CA4D220 /* ic_animals_nature@3x.png */; };
+		27DAA895DA299EEFB869DB4B0F02A089 /* ic_flags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0FF7B4B309A546E68114D649153FE7 /* ic_flags@2x.png */; };
 		2A686A790D6B162294CB267CC99F52ED /* LoggerAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD1FFEE3C60D63ED345E77FED67532A /* LoggerAPI-dummy.m */; };
+		2C64C724E269A066584CF27583041A80 /* ic_activity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BE40717587F4EFBA8F9589752CB0CD7 /* ic_activity@3x.png */; };
+		2CA269C50CB9F05BCE7414F4ABFF030D /* ic_symbols.png in Resources */ = {isa = PBXBuildFile; fileRef = ABBACE88F2F161C9D7B926A7FB4BEDB6 /* ic_symbols.png */; };
 		2F07B7E56E820751DDDFBE061D43126C /* Locks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2975F05775DF2ECA6258ABB90ACB1 /* Locks.swift */; };
 		2FBF07D33B45989B628AD8906ED84DAF /* Logging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 323715B8D3FE9CA2F25DD171E4015CC5 /* Logging-dummy.m */; };
 		308870ABDD35D0310DBBB6F970150108 /* LoggerAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F353F3C61CBF181F0D1E4C1CDF4D8D09 /* LoggerAPI.framework */; };
 		3183A1371D3D360D3D9D6DBAC7D12333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
-		323C7576B8F0E7EB3EE2D96D14438DEE /* ic_emojiDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D674B5E4D9BDF19E515CE608C2B3F937 /* ic_emojiDelete@3x.png */; };
+		32D0109E5C3C0DA88F3094FBBB6EEC54 /* ic_food_drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EC69286B44ADC1BF3A7DD08D9E85772 /* ic_food_drink.png */; };
 		32DF207606AABBB2D4D8CD8053E3AF37 /* RestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C6F793C4789A846C77C68C45BE1E2 /* RestUtilities.swift */; };
 		3495A90E4C29261DDC74304C4DDECA59 /* KituraContracts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BFDE216E598130A5ADC752FCFF5122 /* KituraContracts.framework */; };
+		35C9B4C20B1F0E5E9BB8AE7180DE7138 /* ISEmojiList_iOS11.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8669684C364891B0B3975D6F8583F9C /* ISEmojiList_iOS11.plist */; };
+		37C2E2BD90B642AAD6BE9E360C0DE326 /* ic_emojiDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 590CBD50AB8B294008E35E0A1D7CCB8D /* ic_emojiDelete.png */; };
 		38F22550A01CEEE68C29E0FA0B9A59AD /* Invocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324FDF89E57BAC436057A5EB1318CBA /* Invocation.swift */; };
-		39E47F96CDF4213A13E7DB897E9ED539 /* ic_recents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0475AFC7BE295C8C47FF6590BB98C27 /* ic_recents@2x.png */; };
 		3B5B8053F57A4E0A263874F1F9FE956D /* KituraContracts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E3E8B491FF0F0E2DC8D6B0044C63AA /* KituraContracts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE8B8888282FF2E7E1E9CEBF26C2551 /* RestToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988AF9DF8F4EA2A14DDBFB0197D3682E /* RestToken.swift */; };
-		3F994B0FAC7AD28086221054CE8B9C87 /* RecentEmojisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3FDAA309C9607E4CA32A89F876979B /* RecentEmojisManager.swift */; };
-		41745463C45AE3D150ADB129153C9533 /* EmojiPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D7B7A03492578CB8E06B800BBD062 /* EmojiPopView.swift */; };
-		41D412A7A897E692DEBCA6ACBAD5A8D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3B9CA8E026FF02946BDA8821ABE139 /* Constants.swift */; };
+		3CC24AF35E33BEC1E5D4909B8B282E6A /* ic_symbols@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FF6692FA0E85D35C221620B49A212 /* ic_symbols@3x.png */; };
+		3CF5EF66C42E96515009A38D42E05DE1 /* ic_recents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 558A03407A1944719F7B05022034CC10 /* ic_recents@2x.png */; };
+		3F994B0FAC7AD28086221054CE8B9C87 /* RecentEmojisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F747FA9B476D9909BF6714DA3DCC2 /* RecentEmojisManager.swift */; };
+		41745463C45AE3D150ADB129153C9533 /* EmojiPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0DBFF78F9E36FC1CE2FF7820EDC3C9 /* EmojiPopView.swift */; };
+		41D412A7A897E692DEBCA6ACBAD5A8D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F7B95CF1138F2BDC54A16EE86D59E7 /* Constants.swift */; };
 		420CF3D87BD98EFC6DB50D10EEFE0E83 /* SwiftyRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876159711C677864421DECBD430DE8F4 /* SwiftyRequest.framework */; };
 		43894E2F5FF78248486223D128EA4D45 /* CircuitBreaker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82C14CC0A9346986D5F9D2DBF9E88DD /* CircuitBreaker.framework */; };
 		439EC640BC3FB95CDF6801E6723E0748 /* Pods-EmojiJournalMobileApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4A0C2EFD942FB609FDE653598E762B /* Pods-EmojiJournalMobileApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47631B5990C6AF357FA0559605EB4224 /* LoggerAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE7F4DA03B3CECD27573D1B37B310F9 /* LoggerAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C7637D60D046676462395FB8B779B9 /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F83867F66F3292C9C34A38EEFA0284 /* CodableExtensions.swift */; };
+		49DB9153136B8745195042E4EDF45386 /* ic_recents.png in Resources */ = {isa = PBXBuildFile; fileRef = 69390A4DC049001568DB894948BD1B42 /* ic_recents.png */; };
 		4A2B6470DC5339EF7CB75C3F82943346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
 		4B570F3ACE363BB5F3B7761C6FA4033D /* ClientCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71BBC7F11C9779F4FA69F64E8C7B82 /* ClientCredentials.swift */; };
-		4EBC67FE5F7F690F6454997C5479C2B7 /* PageControlBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4781D2A18C26874C838C89EA732C0C87 /* PageControlBottomView.swift */; };
-		4F0D31F09210C10E302D86B9AAAB6795 /* ic_symbols.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BDC7E0B3FDFD21A2F738CFCFEC18CA /* ic_symbols.png */; };
-		5050D0E8ED2178804DB0AFD24FA1EF98 /* ic_activity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5691496B7C2F550D3BC1E23E6AFAE646 /* ic_activity@3x.png */; };
-		52F1280488AA724F7E6A871720D94BFB /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8660086C15B8566C07B60A37DD483 /* Bundle.swift */; };
+		4EBC67FE5F7F690F6454997C5479C2B7 /* PageControlBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE303F6B2156BE7B02FAAE8741E100A9 /* PageControlBottomView.swift */; };
+		52F1280488AA724F7E6A871720D94BFB /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B30CE38D8601838E37F87BECA1A2D33 /* Bundle.swift */; };
 		5317B907577BE147BD7C36B4E7C5B8DB /* KituraKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4900C8C9405D703E3E7FE8EBFFD17C6F /* KituraKit-dummy.m */; };
 		5576FAB75E77FD81E121596BABCE0904 /* Pods-EmojiJournalMobileApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB8D2C874A3E8E0C3BBF789A156A4 /* Pods-EmojiJournalMobileApp-dummy.m */; };
+		574C1632C5001567AF15F55414B0FA2C /* ic_flags.png in Resources */ = {isa = PBXBuildFile; fileRef = 07E3FE9CF991C013FE515AA92968F950 /* ic_flags.png */; };
 		5900412402DC471E493C6373ECBDAE47 /* ClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3376AA5B68A87312512CF478FBB57 /* ClientCertificate.swift */; };
 		5B19CD4840C7DFC54E7BF6AEBE16D104 /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE9E1D4106C40A07B4B5A4790715CBE /* Coder.swift */; };
+		5D025697F9352ED61242DA9C986BAD18 /* EmojiCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86FFCD3315C3D05924DD3C5E21F0C72 /* EmojiCollectionView.xib */; };
 		5D4D49247B1FE83DB5A29A337F9B176D /* LoggerAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F353F3C61CBF181F0D1E4C1CDF4D8D09 /* LoggerAPI.framework */; };
 		5E454A64A5A3C0608F47E9AFC6B93AC0 /* LogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039482BE88972A29FE8C178C67DF3801 /* LogHandler.swift */; };
-		602A25D65B323F302AE598F02BC409D7 /* ISEmojiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52E760FD62BA8ADD7B02B9D32A61573 /* ISEmojiView-dummy.m */; };
-		60A398DCFE24A7F05F7FF21BB82161FE /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 390CA0D8BD183A8687E3D7C8A742A93D /* Images */; };
+		602A25D65B323F302AE598F02BC409D7 /* ISEmojiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E00CF27220FDFBAC97DCEE72C1B9EA4 /* ISEmojiView-dummy.m */; };
 		614E923F1FDDCBBB19E7FD65BBF4148D /* IBMSwiftCircuitBreaker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3A2EFC4A0D7631270F546A1FFECA81 /* IBMSwiftCircuitBreaker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6274ED714902EF3E2E532CD09170F838 /* BreakerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170057B2CA482199A693BE72E5F7B78A /* BreakerError.swift */; };
 		62A0D64028A17DE45F294F25B9EB85D2 /* BodyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B5AB29548AF3DF6D9384CD6D93EE02 /* BodyEncoder.swift */; };
+		63DAFA7E746A9CD6B20EB34585B4F0E2 /* ic_smileys_people@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 221513B01A9719AFD9E2A5465B4D61EE /* ic_smileys_people@3x.png */; };
 		6734FDB5FFCA30100D2B1F24DF268A87 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF73035870685BA592B67360259BC12F /* Collection.swift */; };
-		683CA710559AB6BD89D8142B402ED02B /* ic_travel_places.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9EC81FD84F37549CCA5F7018A54C17 /* ic_travel_places.png */; };
-		6A1335060975EB3095568F6AE104B7C1 /* PageControlBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB1DB9210C2E66BBD122C76B156376E2 /* PageControlBottomView.xib */; };
 		6B5C33BDFE6E8F4F278089A85B77CFB4 /* MonitorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3810D742BCF61336207F69A74A056C2 /* MonitorCollection.swift */; };
-		6C5D6129C376EC677A297142E7C2E54E /* ic_smileys_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 708275420E638067EF0861064E9EEA93 /* ic_smileys_people.png */; };
-		6E58200D2FA902FB5D99E29210AEACBB /* ic_objects@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A046C407BC3D72299727EB0113E61BCC /* ic_objects@3x.png */; };
+		6BDBAA54FED30E05BB158554C0FC16BE /* ic_travel_places@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFD53C26A0CEEFABF8FC8383646DAFB /* ic_travel_places@3x.png */; };
+		6C18AD4C702B7AEC25ADD5B17DC5CA9A /* ic_objects@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACB6F63F5ADF230B80B1E3033F0A19F /* ic_objects@2x.png */; };
+		70A3F28D0ADB766FB0569B6712016C5E /* ic_objects@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68BBCA262DC3C128841787326EECD511 /* ic_objects@3x.png */; };
+		71C677B5D40EBF3D96C7F3FFAF8C62F7 /* ic_animals_nature@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A241799D3E4ADE3F774269FE792E86 /* ic_animals_nature@3x.png */; };
 		737DC9CA2B0A6B4CEAA6A45BF352AF1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE266932AF9E8C521CAEB4E5993C03CF /* Extensions.swift */; };
 		76B3925CDF04A74ECA7AC3C98D4DC7D1 /* QueryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27A4B05575D5BA33825C7C9B21E98C3 /* QueryDecoder.swift */; };
 		7800BFEE91D371689708FB4D40B97DDC /* BodyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66E2E50D72100A1F03AA45686A167B4 /* BodyFormat.swift */; };
-		793CC4E54EE83B218D3568845BC9FF72 /* ic_emojiDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE81BB70E449A005899A82D3CB86835E /* ic_emojiDelete@2x.png */; };
-		795DCAB04E6295B1035EFD911891EB77 /* ic_recents@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3789AC214EE66D24BEE2EA11EEF2643 /* ic_recents@3x.png */; };
-		7BA85948CBACA1C377BCE71DE7D972AC /* ic_emojiDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FA49E92C7FD940AE743162F81C72BF /* ic_emojiDelete.png */; };
-		7BDD40E182365C2697B2792010E32B25 /* ic_recents.png in Resources */ = {isa = PBXBuildFile; fileRef = EE1EAE2E200A86785D973E7E378EBCD5 /* ic_recents.png */; };
-		7EFD35CBD8616FC4D49C00D1BCEC7F48 /* CategoriesBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC6740A2EE732819D0E2416E8ABC56C /* CategoriesBottomView.xib */; };
-		7F92E8F5C51531738149979C2F8E3B3B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE42FCDCD8ADFE6774841A84B398568 /* CategoryCell.swift */; };
+		7F92E8F5C51531738149979C2F8E3B3B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C9A2DF73FBB2A0DB1B2A7105CBD809 /* CategoryCell.swift */; };
 		856CB15DD6DAEE7B807EB1A7FB691845 /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88000225DB7BB904030723E4E538693E /* Contracts.swift */; };
-		8A19CAC419F811445A15563828F1B9BF /* ISEmojiList_iOS10.plist in Resources */ = {isa = PBXBuildFile; fileRef = BABBB71C6A8BF86D0F196CF90F155FDD /* ISEmojiList_iOS10.plist */; };
 		8B5077341F277FDE7FA6D592A0F933CC /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791629B142C76779BEE1E9F490D247A /* StringExtensions.swift */; };
 		8BFCBF894434021AB5974EA6F1158275 /* BodyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521EE15DCF78274DBA4A46678D790D5A /* BodyDecoder.swift */; };
-		8DCD2789DE2BBB08E92D73211E43BDD1 /* ic_smileys_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E70AF0255FB2E54F41DEB4DFC7951C2D /* ic_smileys_people@2x.png */; };
-		8E8AA966A089DAC7191C41CE800715EA /* ic_symbols@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21472927A9B9484AB2C7161670CD095B /* ic_symbols@2x.png */; };
+		8D63BCBEFB02002C66CFAB1C029E7B03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0696DD90A2F386DB2A67085CC0E9D209 /* Images.xcassets */; };
+		8F0FEC892120219F855A266E2458F929 /* ic_flags@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDE01928C40AA423282486D28229E50 /* ic_flags@3x.png */; };
 		8FA3EE73CF2CBA6BA6ECAEBC5F1A5EB0 /* Logging-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35076B620B177D6D8F13019918B71BD6 /* Logging-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92E763CED325EFB8AD2990DB90BD2DE8 /* EmojiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8072C80295391823C424D08D2D858D29 /* EmojiCollectionView.swift */; };
-		990E374B474EB01595B0653A785866AF /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 5A74C528557717FF1E6676CBD7CE07F7 /* Views */; };
+		92E763CED325EFB8AD2990DB90BD2DE8 /* EmojiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DBB7377BB9CEFF77C0F91EEB94BA95 /* EmojiCollectionView.swift */; };
+		9534145B5C6C42DF15C8724AFC8BFDEF /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 21A51244192C380A26A2E462409D4E44 /* Views */; };
+		96B08E42718F454631349E03754F719D /* ic_smileys_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F24FF59C043654D619987A12332FAB71 /* ic_smileys_people@2x.png */; };
+		97A435A6890C808BB339EAF50DCE4592 /* ISEmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF81F0F0FD5B2DCB19D2AEA1D4A4F0B /* ISEmojiList.plist */; };
+		9B13D26CE1356655399D45C28996E65B /* ic_animals_nature.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAF167715F13C19D4ACA189BD6437F2 /* ic_animals_nature.png */; };
+		9D15BB2CC3D91C6757B9895B9858136B /* ic_food_drink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5880435EEBDEC448175463EB6FF591C /* ic_food_drink@2x.png */; };
 		9F29287F105F310645A2C1A45E3FD470 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4021BCFFEE5D7B8EFFCB0F1AC097E4A3 /* Stats.swift */; };
 		A58117D4923665E5DCB1D45E22F228EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
-		A6B559AB004D329C47D874B522CA4B25 /* ic_travel_places@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652AA5296E7067B6191D8B6471BD8B23 /* ic_travel_places@2x.png */; };
 		ABFBB322FB8F4FC0A70BF975C5B7568D /* IBMSwiftCircuitBreaker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D509148A55FD9BD4229271EDE33A555D /* IBMSwiftCircuitBreaker-dummy.m */; };
 		AC2F3257CC822CD7DD6C22D0F03978C5 /* Bulkhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768BDB6B2BC4417C8BDD5F8D6E3D60A2 /* Bulkhead.swift */; };
-		AD4F222B45B41F085473CB0A44AB1676 /* ISEmojiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D2A2CE813D5D4A6963C948647461B6 /* ISEmojiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4F222B45B41F085473CB0A44AB1676 /* ISEmojiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB530DE5DA3D8CC1C5A527ABB3A50F9A /* ISEmojiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFFF0145B593E36B75FE2B94A2D3D25C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F630E54E8716C6A73A4ACCCD2C879B3 /* Client.swift */; };
-		B185D2739E39415031299EF95CE32D7C /* CategoriesBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FE637A24AF7E0BA9EB21A8AC457428 /* CategoriesBottomView.swift */; };
-		B530C8ABF16258D6277908C6F2366E16 /* KeyboardSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608D7B18B49FF4621D215BBFE8B20B59 /* KeyboardSettings.swift */; };
+		B185D2739E39415031299EF95CE32D7C /* CategoriesBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF1A71B5534E9479C2FC22FD325920C /* CategoriesBottomView.swift */; };
+		B530C8ABF16258D6277908C6F2366E16 /* KeyboardSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD50C5CA2FE7F228EE757777A81A192 /* KeyboardSettings.swift */; };
 		B5BC5EC9FB90DC2461FD14B9C0C9C40B /* SwiftyRequest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 323386E397BB1640A7B6D2736F833916 /* SwiftyRequest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B782476F7A3512F5F761AB54F0DC3729 /* EmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183A91B7F17DDA1BE0BB8315EA8E666 /* EmojiCategory.swift */; };
+		B782476F7A3512F5F761AB54F0DC3729 /* EmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92FFF3470F826610916B23FEDF424CA /* EmojiCategory.swift */; };
 		B83700F9447E4F1E4063EFAE522EA6E9 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165CC063D83779C76B106EC4B61F8561 /* JSON.swift */; };
-		BE2B7573344AD839044054F435E33F98 /* ic_flags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB0CA999DE991A3C0E301E53CF81B7F /* ic_flags@2x.png */; };
+		C2B0DB390F097E614478DFA707548EF3 /* ic_symbols@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AEBD899ADE6823E3659CF575ADA5C16 /* ic_symbols@2x.png */; };
 		C33D9E736FE60564922FC3F3172A0D7E /* KituraKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E54E99C76CA91CD13BBE94B8B53EA1EC /* KituraKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C47DE3E4693948ED928DC8A5835756AB /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375CC97ABB197B2A0F0CD17A01438E45 /* Monitor.swift */; };
-		C508F82A9C28B96A9FF9ADEDFC879BFC /* ic_animals_nature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF747B50B373D2201C4D16B63A4BEEC1 /* ic_animals_nature@2x.png */; };
-		C680D851784676760F73FBA7AB87AEF0 /* ic_objects.png in Resources */ = {isa = PBXBuildFile; fileRef = 768073C874397DAE8C14EB1CB45B2492 /* ic_objects.png */; };
-		C8F7E5987D62C0EC9C97D3593B7D8CCE /* EmojiCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A96FB29E5CA92091A9F059948783F6 /* EmojiCollectionView.xib */; };
-		CAEE73122845B1D2924DCC47F2110598 /* ic_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 444A21898EDBEEC038A8A302AE3ABCF7 /* ic_activity@2x.png */; };
 		CB6930B6B4D6B446C84BB3D5BD2D2864 /* LoggerAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F353F3C61CBF181F0D1E4C1CDF4D8D09 /* LoggerAPI.framework */; };
 		CD3F3BC3A645CFC413B8A077984BEEE9 /* JSONWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5E322DFA90C5CE5862D43B63D42162 /* JSONWrapper.swift */; };
 		CFB150D6B205C34C7EC597FE86520A7E /* KituraContracts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BDD57E4A6295BD9E1ED2BFECEA9AE /* KituraContracts-dummy.m */; };
-		D0326AC648A129DBE1CD98ECC14E5D31 /* ic_symbols@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093CA9ADB20AD2D9CBB0E72AACCAFB1C /* ic_symbols@3x.png */; };
-		DA6C693329346530751949A648540F4E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA629C0D8BECA68A6BBC170F1A072ECA /* Category.swift */; };
-		DADA63CC7D4F13D57F30A0A9B2A51A3E /* ic_smileys_people@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E95F4FA5FD947D9E88BF7DE488CE51B2 /* ic_smileys_people@3x.png */; };
-		DBA009A2939E37A7016245DC87075B32 /* ISEmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = E54FEB53345DCE124229399D7668B215 /* ISEmojiList.plist */; };
-		DE3DB6AC1B210982F1E38DB45C4820C2 /* EmojiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5458CAD4D1FA6A1299B3730A8040000 /* EmojiLoader.swift */; };
-		DE780AA99B8269ADBCC8CF1550638F13 /* ic_food_drink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EE27DB97D3D08A7AF90EDE8C5105F1 /* ic_food_drink@2x.png */; };
+		D2EEE7F61382FE248753A8B3B33DE8D5 /* ic_travel_places.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E160568C470148377D4AA165C3640AB /* ic_travel_places.png */; };
+		DA6C693329346530751949A648540F4E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C389377D19A2B013F02B42004B40C29 /* Category.swift */; };
+		DE3DB6AC1B210982F1E38DB45C4820C2 /* EmojiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287C7C9BA91F613AC94A793B24FAF421 /* EmojiLoader.swift */; };
 		DEC3AE2EB7EE64DC8DDFB4B1D3295D23 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E5C48F9249555275842F0094A655C6 /* Logger.swift */; };
 		DFC0F5F75D04D136B117EC7527198D96 /* SwiftyRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A31129E260B18E34ED3B1A1494DEAFA /* SwiftyRequest-dummy.m */; };
-		E545405129B572FF9E47889189C9AC22 /* ic_flags@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E22E47B4594A7936ED5EEF515F06C735 /* ic_flags@3x.png */; };
-		E5A4AB5B225AE7D7A1A60CC487C26332 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14C2640432F471DE3594A1A4B6C736 /* Emoji.swift */; };
-		E8201EDD3423C98E0F8187E00B8DFCB3 /* ic_objects@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57AF7B8CE755761FD0BDE1F854479D89 /* ic_objects@2x.png */; };
+		E5A4AB5B225AE7D7A1A60CC487C26332 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BE4F87E7A3591ED86647319FFF4D28 /* Emoji.swift */; };
+		E680CF07EE9FE831317DD5C1EB5DADA8 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = BC31B80AB9214AB7412CBBA4BBDD52E7 /* Images */; };
+		E6F65F1066E956C77D61BFD0CE0CA75D /* ic_recents@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6209358CCA7A1CE17DB5045563A21D9F /* ic_recents@3x.png */; };
+		E72C1C206BC754B120420075F6F073C9 /* ic_emojiDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D02E2B000AA5AF586E4BB66D5426ED1 /* ic_emojiDelete@2x.png */; };
 		E8B9832FC661248128441CF63C41483E /* QueryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E7249FEE192802208BBE707F6F164C /* QueryEncoder.swift */; };
 		E985DD26F0ED977A164E432F8A3E2516 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1B56357D747DD8365A9D269F3D11D2 /* HTTPMethod.swift */; };
-		EC9E1E90CE056310B64872116BF23488 /* ic_flags.png in Resources */ = {isa = PBXBuildFile; fileRef = F62882D08B0E1E625A80191746F6533A /* ic_flags.png */; };
-		EDFD2B8474AA75DBBBF6A4B8755E25EB /* ic_travel_places@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B32A9DDCA42B455CEE788C49E3355F56 /* ic_travel_places@3x.png */; };
-		EEDCC610864D471042E5200BFA73DF14 /* ic_animals_nature.png in Resources */ = {isa = PBXBuildFile; fileRef = D27DFD2B13091DD09CB7585948CEB3C0 /* ic_animals_nature.png */; };
 		EFA821B5815727309374CB7E8D78FF68 /* RequestErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A416A78A06D24552DD9AB6B18E32F9 /* RequestErrorExtension.swift */; };
+		EFCF4717326A0CD1E9161D8016C44C9D /* PageControlBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D8B79E9DEC6138D0C1DF8086331EB5 /* PageControlBottomView.xib */; };
 		F0319E5CCF927CCE879F7E830CCBFE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
+		F0741B7CE2DD0ED8CAF0A43D02B8719F /* ic_travel_places@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F0D83012914938A1AEB03F40A295C2B /* ic_travel_places@2x.png */; };
+		F1B8BC5E189745D1320375ED9550C783 /* ic_animals_nature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D9A4AA066C3FC802BB41A5D2D8EB32 /* ic_animals_nature@2x.png */; };
+		F65FFD1F3D8C4A7BC6AC377CF6240D0D /* ic_smileys_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E934A66AA1DA2B2DA80CCBE6B8EDDD3 /* ic_smileys_people.png */; };
 		FAA5F701C222BC4DEF8887F9237E5CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */; };
 		FABC6D807FD87F6B43FF315751F8DAD8 /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D73B6BB1BB4C9BFBE41C74872E939D9 /* Snapshot.swift */; };
+		FAC8B6A92B32DC21D62EDE84C54C5E9B /* CategoriesBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3C9980B5DFF22E41C8483B291F409F2 /* CategoriesBottomView.xib */; };
 		FBFB54E5F28D9A23E4989FD0BD49668E /* ResultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9798A5DE10998E97D97BDAE100A5FD /* ResultExtension.swift */; };
 		FC11D64E497D646BF3E1A97E94EB89EF /* Logging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EDBF2546B7905800E18A94D4256F587 /* Logging.framework */; };
-		FD8F06CE62A821A4C89ED1ED69CB56E6 /* ic_food_drink.png in Resources */ = {isa = PBXBuildFile; fileRef = 086D1412E1CC8E92C27025A2D3C1409A /* ic_food_drink.png */; };
-		FF17943AFA1C6CD73E4CA81677AE9E1F /* EmojiCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558705AE6B1A758A361FF2D3CCD928D2 /* EmojiCollectionCell.swift */; };
+		FF17943AFA1C6CD73E4CA81677AE9E1F /* EmojiCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FDE7330987EE0ACB95DD6B229E03C /* EmojiCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,161 +242,162 @@
 
 /* Begin PBXFileReference section */
 		039482BE88972A29FE8C178C67DF3801 /* LogHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHandler.swift; path = Sources/Logging/LogHandler.swift; sourceTree = "<group>"; };
-		086D1412E1CC8E92C27025A2D3C1409A /* ic_food_drink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_food_drink.png; path = Source/Assets/Images/ic_food_drink.png; sourceTree = "<group>"; };
-		08B8129442E3E8E64C3EE673E5A6862D /* KituraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KituraKit.framework; path = KituraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		093CA9ADB20AD2D9CBB0E72AACCAFB1C /* ic_symbols@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_symbols@3x.png"; path = "Source/Assets/Images/ic_symbols@3x.png"; sourceTree = "<group>"; };
-		0AB8660086C15B8566C07B60A37DD483 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = Source/Classes/Extensions/Bundle.swift; sourceTree = "<group>"; };
-		0E3FDAA309C9607E4CA32A89F876979B /* RecentEmojisManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecentEmojisManager.swift; path = Source/Classes/Helpers/RecentEmojisManager.swift; sourceTree = "<group>"; };
+		0696DD90A2F386DB2A67085CC0E9D209 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Source/Assets/Images.xcassets; sourceTree = "<group>"; };
+		07337C90D68DE008BF49798D9BFD13C9 /* ISEmojiList_iOS10.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList_iOS10.plist; path = Source/Assets/ISEmojiList_iOS10.plist; sourceTree = "<group>"; };
+		07E3FE9CF991C013FE515AA92968F950 /* ic_flags.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_flags.png; path = Source/Assets/Images/ic_flags.png; sourceTree = "<group>"; };
+		08B8129442E3E8E64C3EE673E5A6862D /* KituraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KituraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D5C6400D040E8BCBBDDE3A732B4F55 /* ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ISEmojiView-Info.plist"; sourceTree = "<group>"; };
+		09D8B79E9DEC6138D0C1DF8086331EB5 /* PageControlBottomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlBottomView.xib; path = Source/Assets/Views/PageControlBottomView.xib; sourceTree = "<group>"; };
+		0D02E2B000AA5AF586E4BB66D5426ED1 /* ic_emojiDelete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_emojiDelete@2x.png"; path = "Source/Assets/Images/ic_emojiDelete@2x.png"; sourceTree = "<group>"; };
+		0D398EE3BC943DD0B13AC49D12E7A703 /* ISEmojiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISEmojiView.xcconfig; sourceTree = "<group>"; };
 		15CB4A94A8E438F056DD8BD50A5EB5BF /* Pods-EmojiJournalMobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiJournalMobileApp.release.xcconfig"; sourceTree = "<group>"; };
 		165CC063D83779C76B106EC4B61F8561 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/SwiftyRequest/JSON.swift; sourceTree = "<group>"; };
 		170057B2CA482199A693BE72E5F7B78A /* BreakerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BreakerError.swift; path = Sources/CircuitBreaker/BreakerError.swift; sourceTree = "<group>"; };
 		1C09ABBFD3CCDBE253CFBB30F5984B59 /* LoggerAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoggerAPI.modulemap; sourceTree = "<group>"; };
 		1C1B56357D747DD8365A9D269F3D11D2 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/SwiftyRequest/HTTPMethod.swift; sourceTree = "<group>"; };
-		21472927A9B9484AB2C7161670CD095B /* ic_symbols@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_symbols@2x.png"; path = "Source/Assets/Images/ic_symbols@2x.png"; sourceTree = "<group>"; };
+		1E934A66AA1DA2B2DA80CCBE6B8EDDD3 /* ic_smileys_people.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_smileys_people.png; path = Source/Assets/Images/ic_smileys_people.png; sourceTree = "<group>"; };
+		21A51244192C380A26A2E462409D4E44 /* Views */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Views; path = Source/Assets/Views; sourceTree = "<group>"; };
+		221513B01A9719AFD9E2A5465B4D61EE /* ic_smileys_people@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_smileys_people@3x.png"; path = "Source/Assets/Images/ic_smileys_people@3x.png"; sourceTree = "<group>"; };
 		26B7E23B6E4252A51D14CC87265DBB38 /* SwiftyRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyRequest.modulemap; sourceTree = "<group>"; };
+		287C7C9BA91F613AC94A793B24FAF421 /* EmojiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiLoader.swift; path = Source/Classes/Helpers/EmojiLoader.swift; sourceTree = "<group>"; };
+		29CA4E812D8BFC3F4817721F51590DCD /* ic_objects.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_objects.png; path = Source/Assets/Images/ic_objects.png; sourceTree = "<group>"; };
+		2C389377D19A2B013F02B42004B40C29 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Source/Classes/Models/Category.swift; sourceTree = "<group>"; };
 		2D57880C6DF574ECB14F0E07F98E2206 /* IBMSwiftCircuitBreaker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMSwiftCircuitBreaker.xcconfig; sourceTree = "<group>"; };
 		2DE9E1D4106C40A07B4B5A4790715CBE /* Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coder.swift; path = Sources/KituraContracts/CodableQuery/Coder.swift; sourceTree = "<group>"; };
-		2FB0CA999DE991A3C0E301E53CF81B7F /* ic_flags@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_flags@2x.png"; path = "Source/Assets/Images/ic_flags@2x.png"; sourceTree = "<group>"; };
-		31FE637A24AF7E0BA9EB21A8AC457428 /* CategoriesBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CategoriesBottomView.swift; path = Source/Classes/Views/BottomViews/CategoriesBottomView/CategoriesBottomView.swift; sourceTree = "<group>"; };
+		2E00CF27220FDFBAC97DCEE72C1B9EA4 /* ISEmojiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISEmojiView-dummy.m"; sourceTree = "<group>"; };
+		2F0D83012914938A1AEB03F40A295C2B /* ic_travel_places@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_travel_places@2x.png"; path = "Source/Assets/Images/ic_travel_places@2x.png"; sourceTree = "<group>"; };
 		323386E397BB1640A7B6D2736F833916 /* SwiftyRequest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRequest-umbrella.h"; sourceTree = "<group>"; };
 		323715B8D3FE9CA2F25DD171E4015CC5 /* Logging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Logging-dummy.m"; sourceTree = "<group>"; };
 		33B38F381B0300C3047F26B8386296E7 /* KituraContracts.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KituraContracts.xcconfig; sourceTree = "<group>"; };
 		35076B620B177D6D8F13019918B71BD6 /* Logging-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logging-umbrella.h"; sourceTree = "<group>"; };
 		375CC97ABB197B2A0F0CD17A01438E45 /* Monitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Monitor.swift; path = Sources/CircuitBreaker/Monitor.swift; sourceTree = "<group>"; };
-		390CA0D8BD183A8687E3D7C8A742A93D /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = Source/Assets/Images; sourceTree = "<group>"; };
+		38BE4F87E7A3591ED86647319FFF4D28 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Source/Classes/Models/Emoji.swift; sourceTree = "<group>"; };
+		39D9A4AA066C3FC802BB41A5D2D8EB32 /* ic_animals_nature@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_animals_nature@2x.png"; path = "Source/Assets/Images/ic_animals_nature@2x.png"; sourceTree = "<group>"; };
 		3A3D80D9DEA6FBA6714642C4AFC32F42 /* RestRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestRequest.swift; path = Sources/SwiftyRequest/RestRequest.swift; sourceTree = "<group>"; };
 		3CDA7BE621E005000DF1B5190AFCE8CA /* Logging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Logging.xcconfig; sourceTree = "<group>"; };
 		3DA9C7A3FDC8EB69D84413B1F1A33B69 /* Logging-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Logging-Info.plist"; sourceTree = "<group>"; };
+		3DDE01928C40AA423282486D28229E50 /* ic_flags@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_flags@3x.png"; path = "Source/Assets/Images/ic_flags@3x.png"; sourceTree = "<group>"; };
+		3E59B7FA88A8D803CF840BE1D9D2A31D /* ISEmojiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ISEmojiView.modulemap; sourceTree = "<group>"; };
 		3FE7F4DA03B3CECD27573D1B37B310F9 /* LoggerAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoggerAPI-umbrella.h"; sourceTree = "<group>"; };
+		3FF81F0F0FD5B2DCB19D2AEA1D4A4F0B /* ISEmojiList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList.plist; path = Source/Assets/ISEmojiList.plist; sourceTree = "<group>"; };
 		4021BCFFEE5D7B8EFFCB0F1AC097E4A3 /* Stats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stats.swift; path = Sources/CircuitBreaker/Stats.swift; sourceTree = "<group>"; };
 		41E3E8B491FF0F0E2DC8D6B0044C63AA /* KituraContracts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KituraContracts-umbrella.h"; sourceTree = "<group>"; };
 		41F3A2CA38AF3C40733717D08EC615C7 /* Pods-EmojiJournalMobileApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmojiJournalMobileApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		42B3AC0B733FB5111461DDC752ABFC0D /* Pods-EmojiJournalMobileApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmojiJournalMobileApp.modulemap"; sourceTree = "<group>"; };
-		444A21898EDBEEC038A8A302AE3ABCF7 /* ic_activity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_activity@2x.png"; path = "Source/Assets/Images/ic_activity@2x.png"; sourceTree = "<group>"; };
 		44BE50D87C85AA8EB36AC584F0CB5A25 /* Pods-EmojiJournalMobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmojiJournalMobileApp.debug.xcconfig"; sourceTree = "<group>"; };
-		4781D2A18C26874C838C89EA732C0C87 /* PageControlBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageControlBottomView.swift; path = Source/Classes/Views/BottomViews/PageControlBottomView/PageControlBottomView.swift; sourceTree = "<group>"; };
 		4900C8C9405D703E3E7FE8EBFFD17C6F /* KituraKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KituraKit-dummy.m"; sourceTree = "<group>"; };
+		4AF1A71B5534E9479C2FC22FD325920C /* CategoriesBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CategoriesBottomView.swift; path = Source/Classes/Views/BottomViews/CategoriesBottomView/CategoriesBottomView.swift; sourceTree = "<group>"; };
 		4D50C9BE5D9AA5B80564B3A90D6559B8 /* KituraKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KituraKit.modulemap; sourceTree = "<group>"; };
 		4DFD1C355B3AB9BBC1753BB562B569BC /* SwiftyRequest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyRequest-Info.plist"; sourceTree = "<group>"; };
-		503DA7A0D388AA0DEE0FF08C7252618C /* ISEmojiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ISEmojiView.framework; path = ISEmojiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50DC8170F900BA522696AED601FA9DF4 /* CircuitBreaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircuitBreaker.framework; path = IBMSwiftCircuitBreaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		503DA7A0D388AA0DEE0FF08C7252618C /* ISEmojiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISEmojiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50DC8170F900BA522696AED601FA9DF4 /* CircuitBreaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircuitBreaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		521EE15DCF78274DBA4A46678D790D5A /* BodyDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyDecoder.swift; path = Sources/KituraContracts/BodyDecoder.swift; sourceTree = "<group>"; };
-		558705AE6B1A758A361FF2D3CCD928D2 /* EmojiCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionCell.swift; path = Source/Classes/Views/EmojiCollectionView/EmojiCollectionCell.swift; sourceTree = "<group>"; };
-		5691496B7C2F550D3BC1E23E6AFAE646 /* ic_activity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_activity@3x.png"; path = "Source/Assets/Images/ic_activity@3x.png"; sourceTree = "<group>"; };
-		57AF7B8CE755761FD0BDE1F854479D89 /* ic_objects@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_objects@2x.png"; path = "Source/Assets/Images/ic_objects@2x.png"; sourceTree = "<group>"; };
+		558A03407A1944719F7B05022034CC10 /* ic_recents@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_recents@2x.png"; path = "Source/Assets/Images/ic_recents@2x.png"; sourceTree = "<group>"; };
+		58676E95DF8C02B0A60A79170C1971BA /* ic_food_drink@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_food_drink@3x.png"; path = "Source/Assets/Images/ic_food_drink@3x.png"; sourceTree = "<group>"; };
+		590CBD50AB8B294008E35E0A1D7CCB8D /* ic_emojiDelete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_emojiDelete.png; path = Source/Assets/Images/ic_emojiDelete.png; sourceTree = "<group>"; };
 		59E5C48F9249555275842F0094A655C6 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/LoggerAPI/Logger.swift; sourceTree = "<group>"; };
-		5A74C528557717FF1E6676CBD7CE07F7 /* Views */ = {isa = PBXFileReference; includeInIndex = 1; name = Views; path = Source/Assets/Views; sourceTree = "<group>"; };
-		5E618802958E56AD613F82E4C4351A16 /* SwiftyRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyRequest.framework; path = SwiftyRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE40717587F4EFBA8F9589752CB0CD7 /* ic_activity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_activity@3x.png"; path = "Source/Assets/Images/ic_activity@3x.png"; sourceTree = "<group>"; };
+		5E1F747FA9B476D9909BF6714DA3DCC2 /* RecentEmojisManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecentEmojisManager.swift; path = Source/Classes/Helpers/RecentEmojisManager.swift; sourceTree = "<group>"; };
+		5E618802958E56AD613F82E4C4351A16 /* SwiftyRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDBF2546B7905800E18A94D4256F587 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3A2EFC4A0D7631270F546A1FFECA81 /* IBMSwiftCircuitBreaker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMSwiftCircuitBreaker-umbrella.h"; sourceTree = "<group>"; };
-		608D7B18B49FF4621D215BBFE8B20B59 /* KeyboardSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardSettings.swift; path = Source/Classes/Models/KeyboardSettings.swift; sourceTree = "<group>"; };
-		652AA5296E7067B6191D8B6471BD8B23 /* ic_travel_places@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_travel_places@2x.png"; path = "Source/Assets/Images/ic_travel_places@2x.png"; sourceTree = "<group>"; };
-		692957A4CC3F6DF527FE03B1BA487C76 /* ic_food_drink@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_food_drink@3x.png"; path = "Source/Assets/Images/ic_food_drink@3x.png"; sourceTree = "<group>"; };
+		5FD50C5CA2FE7F228EE757777A81A192 /* KeyboardSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardSettings.swift; path = Source/Classes/Models/KeyboardSettings.swift; sourceTree = "<group>"; };
+		6209358CCA7A1CE17DB5045563A21D9F /* ic_recents@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_recents@3x.png"; path = "Source/Assets/Images/ic_recents@3x.png"; sourceTree = "<group>"; };
+		68BBCA262DC3C128841787326EECD511 /* ic_objects@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_objects@3x.png"; path = "Source/Assets/Images/ic_objects@3x.png"; sourceTree = "<group>"; };
+		68DBB7377BB9CEFF77C0F91EEB94BA95 /* EmojiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionView.swift; path = Source/Classes/Views/EmojiCollectionView/EmojiCollectionView.swift; sourceTree = "<group>"; };
+		69390A4DC049001568DB894948BD1B42 /* ic_recents.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_recents.png; path = Source/Assets/Images/ic_recents.png; sourceTree = "<group>"; };
+		6AEBD899ADE6823E3659CF575ADA5C16 /* ic_symbols@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_symbols@2x.png"; path = "Source/Assets/Images/ic_symbols@2x.png"; sourceTree = "<group>"; };
 		6D5E322DFA90C5CE5862D43B63D42162 /* JSONWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONWrapper.swift; path = Sources/SwiftyRequest/JSONWrapper.swift; sourceTree = "<group>"; };
 		6D8E26C05CF308F4EE1F0827CDAC1C54 /* Pods-EmojiJournalMobileApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmojiJournalMobileApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		708275420E638067EF0861064E9EEA93 /* ic_smileys_people.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_smileys_people.png; path = Source/Assets/Images/ic_smileys_people.png; sourceTree = "<group>"; };
 		72D5ABF38D3A1B7BB0135C1EA304A480 /* KituraKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KituraKit.xcconfig; sourceTree = "<group>"; };
-		768073C874397DAE8C14EB1CB45B2492 /* ic_objects.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_objects.png; path = Source/Assets/Images/ic_objects.png; sourceTree = "<group>"; };
 		768BDB6B2BC4417C8BDD5F8D6E3D60A2 /* Bulkhead.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bulkhead.swift; path = Sources/CircuitBreaker/Bulkhead.swift; sourceTree = "<group>"; };
 		768DC2EBB1C5FAF90C395516A3A51892 /* KituraContracts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KituraContracts.modulemap; sourceTree = "<group>"; };
+		76A241799D3E4ADE3F774269FE792E86 /* ic_animals_nature@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_animals_nature@3x.png"; path = "Source/Assets/Images/ic_animals_nature@3x.png"; sourceTree = "<group>"; };
+		76C9A2DF73FBB2A0DB1B2A7105CBD809 /* CategoryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = Source/Classes/Views/BottomViews/CategoriesBottomView/CategoryCell.swift; sourceTree = "<group>"; };
 		76F83867F66F3292C9C34A38EEFA0284 /* CodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtensions.swift; path = Sources/SwiftyRequest/CodableExtensions.swift; sourceTree = "<group>"; };
-		77BDC7E0B3FDFD21A2F738CFCFEC18CA /* ic_symbols.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_symbols.png; path = Source/Assets/Images/ic_symbols.png; sourceTree = "<group>"; };
 		7A31129E260B18E34ED3B1A1494DEAFA /* SwiftyRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyRequest-dummy.m"; sourceTree = "<group>"; };
 		7AF294244A8B82C1F3F4B1D473AE551E /* ClosureAliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosureAliases.swift; path = Sources/KituraContracts/ClosureAliases.swift; sourceTree = "<group>"; };
 		7EDDB08F52DFE910448BF889E553FA13 /* IBMSwiftCircuitBreaker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBMSwiftCircuitBreaker.modulemap; sourceTree = "<group>"; };
-		8072C80295391823C424D08D2D858D29 /* EmojiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionView.swift; path = Source/Classes/Views/EmojiCollectionView/EmojiCollectionView.swift; sourceTree = "<group>"; };
+		855FF6692FA0E85D35C221620B49A212 /* ic_symbols@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_symbols@3x.png"; path = "Source/Assets/Images/ic_symbols@3x.png"; sourceTree = "<group>"; };
 		876159711C677864421DECBD430DE8F4 /* SwiftyRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88000225DB7BB904030723E4E538693E /* Contracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contracts.swift; path = Sources/KituraContracts/Contracts.swift; sourceTree = "<group>"; };
 		88E7249FEE192802208BBE707F6F164C /* QueryEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryEncoder.swift; path = Sources/KituraContracts/CodableQuery/QueryEncoder.swift; sourceTree = "<group>"; };
 		8A868E681685A14C1526A2B74D0DA969 /* KituraContracts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KituraContracts-Info.plist"; sourceTree = "<group>"; };
-		8B14C2640432F471DE3594A1A4B6C736 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Source/Classes/Models/Emoji.swift; sourceTree = "<group>"; };
 		8BA85A417DC6819E0D4BFD6BD3431C1A /* KituraKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KituraKit-prefix.pch"; sourceTree = "<group>"; };
+		8D0FF7B4B309A546E68114D649153FE7 /* ic_flags@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_flags@2x.png"; path = "Source/Assets/Images/ic_flags@2x.png"; sourceTree = "<group>"; };
+		8D194FA3529A3A8F0C91BF133F450193 /* ic_activity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_activity@2x.png"; path = "Source/Assets/Images/ic_activity@2x.png"; sourceTree = "<group>"; };
 		8D73B6BB1BB4C9BFBE41C74872E939D9 /* Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapshot.swift; path = Sources/CircuitBreaker/Snapshot.swift; sourceTree = "<group>"; };
+		8E160568C470148377D4AA165C3640AB /* ic_travel_places.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_travel_places.png; path = Source/Assets/Images/ic_travel_places.png; sourceTree = "<group>"; };
 		8E9798A5DE10998E97D97BDAE100A5FD /* ResultExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultExtension.swift; path = Sources/SwiftyRequest/ResultExtension.swift; sourceTree = "<group>"; };
+		8EC69286B44ADC1BF3A7DD08D9E85772 /* ic_food_drink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_food_drink.png; path = Source/Assets/Images/ic_food_drink.png; sourceTree = "<group>"; };
 		8F630E54E8716C6A73A4ACCCD2C879B3 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Sources/KituraKit/Client.swift; sourceTree = "<group>"; };
-		95D9C8A034A22ED415B0BB5ADE5A30A0 /* ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ISEmojiView-Info.plist"; sourceTree = "<group>"; };
-		984D03B142FED720070C1423FF434E43 /* ResourceBundle-ISEmojiView-ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ISEmojiView-ISEmojiView-Info.plist"; sourceTree = "<group>"; };
 		988AF9DF8F4EA2A14DDBFB0197D3682E /* RestToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestToken.swift; path = Sources/SwiftyRequest/RestToken.swift; sourceTree = "<group>"; };
-		99D2A2CE813D5D4A6963C948647461B6 /* ISEmojiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9EC81FD84F37549CCA5F7018A54C17 /* ic_travel_places.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_travel_places.png; path = Source/Assets/Images/ic_travel_places.png; sourceTree = "<group>"; };
+		9B30CE38D8601838E37F87BECA1A2D33 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = Source/Classes/Extensions/Bundle.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FD1FFEE3C60D63ED345E77FED67532A /* LoggerAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoggerAPI-dummy.m"; sourceTree = "<group>"; };
-		A046C407BC3D72299727EB0113E61BCC /* ic_objects@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_objects@3x.png"; path = "Source/Assets/Images/ic_objects@3x.png"; sourceTree = "<group>"; };
 		A2021BE68D99A776C4203D90CCCC575C /* SwiftyRequest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyRequest.xcconfig; sourceTree = "<group>"; };
-		A3789AC214EE66D24BEE2EA11EEF2643 /* ic_recents@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_recents@3x.png"; path = "Source/Assets/Images/ic_recents@3x.png"; sourceTree = "<group>"; };
-		A3B85B880B894F1FF5BAFD94E036CC04 /* LoggerAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LoggerAPI.framework; path = LoggerAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B85B880B894F1FF5BAFD94E036CC04 /* LoggerAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D3376AA5B68A87312512CF478FBB57 /* ClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientCertificate.swift; path = Sources/KituraKit/ClientCertificate.swift; sourceTree = "<group>"; };
-		A5D46E5F9D97781D43249D3C76948708 /* ISEmojiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ISEmojiView.modulemap; sourceTree = "<group>"; };
-		A6513E0A6CB60623515716E73996F0F5 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Logging.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5880435EEBDEC448175463EB6FF591C /* ic_food_drink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_food_drink@2x.png"; path = "Source/Assets/Images/ic_food_drink@2x.png"; sourceTree = "<group>"; };
+		A6513E0A6CB60623515716E73996F0F5 /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8669684C364891B0B3975D6F8583F9C /* ISEmojiList_iOS11.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList_iOS11.plist; path = Source/Assets/ISEmojiList_iOS11.plist; sourceTree = "<group>"; };
 		A92BDD57E4A6295BD9E1ED2BFECEA9AE /* KituraContracts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KituraContracts-dummy.m"; sourceTree = "<group>"; };
-		A9A96FB29E5CA92091A9F059948783F6 /* EmojiCollectionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmojiCollectionView.xib; path = Source/Assets/Views/EmojiCollectionView.xib; sourceTree = "<group>"; };
 		AABF3E6244E102A275D7271DA311C7B2 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/SwiftyRequest/MultipartFormData.swift; sourceTree = "<group>"; };
-		AD3B9CA8E026FF02946BDA8821ABE139 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Classes/Helpers/Constants.swift; sourceTree = "<group>"; };
-		ADE42FCDCD8ADFE6774841A84B398568 /* CategoryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = Source/Classes/Views/BottomViews/CategoriesBottomView/CategoryCell.swift; sourceTree = "<group>"; };
+		AACB6F63F5ADF230B80B1E3033F0A19F /* ic_objects@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_objects@2x.png"; path = "Source/Assets/Images/ic_objects@2x.png"; sourceTree = "<group>"; };
+		ABBACE88F2F161C9D7B926A7FB4BEDB6 /* ic_symbols.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_symbols.png; path = Source/Assets/Images/ic_symbols.png; sourceTree = "<group>"; };
 		AE266932AF9E8C521CAEB4E5993C03CF /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/KituraContracts/CodableQuery/Extensions.swift; sourceTree = "<group>"; };
-		AE81BB70E449A005899A82D3CB86835E /* ic_emojiDelete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_emojiDelete@2x.png"; path = "Source/Assets/Images/ic_emojiDelete@2x.png"; sourceTree = "<group>"; };
 		AED859789CD91ADC9E7E463E74900B58 /* Pods-EmojiJournalMobileApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmojiJournalMobileApp-Info.plist"; sourceTree = "<group>"; };
-		AFC6740A2EE732819D0E2416E8ABC56C /* CategoriesBottomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CategoriesBottomView.xib; path = Source/Assets/Views/CategoriesBottomView.xib; sourceTree = "<group>"; };
 		B1123B28AAD3CCFDDE16F33B090008AE /* IBMSwiftCircuitBreaker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IBMSwiftCircuitBreaker-Info.plist"; sourceTree = "<group>"; };
 		B324FDF89E57BAC436057A5EB1318CBA /* Invocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Invocation.swift; path = Sources/CircuitBreaker/Invocation.swift; sourceTree = "<group>"; };
-		B32A9DDCA42B455CEE788C49E3355F56 /* ic_travel_places@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_travel_places@3x.png"; path = "Source/Assets/Images/ic_travel_places@3x.png"; sourceTree = "<group>"; };
 		B3810D742BCF61336207F69A74A056C2 /* MonitorCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonitorCollection.swift; path = Sources/CircuitBreaker/MonitorCollection.swift; sourceTree = "<group>"; };
 		B3A416A78A06D24552DD9AB6B18E32F9 /* RequestErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorExtension.swift; path = Sources/KituraKit/RequestErrorExtension.swift; sourceTree = "<group>"; };
-		B9E276AB0F6AE3009D9751E19C8A0E0F /* KituraContracts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KituraContracts.framework; path = KituraContracts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BABBB71C6A8BF86D0F196CF90F155FDD /* ISEmojiList_iOS10.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList_iOS10.plist; path = Source/Assets/ISEmojiList_iOS10.plist; sourceTree = "<group>"; };
-		BBF1F9E9F160C8E72D8853F315D71A4B /* ic_activity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_activity.png; path = Source/Assets/Images/ic_activity.png; sourceTree = "<group>"; };
+		B9E276AB0F6AE3009D9751E19C8A0E0F /* KituraContracts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KituraContracts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC31B80AB9214AB7412CBBA4BBDD52E7 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Images; path = Source/Assets/Images; sourceTree = "<group>"; };
 		BE4A0C2EFD942FB609FDE653598E762B /* Pods-EmojiJournalMobileApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmojiJournalMobileApp-umbrella.h"; sourceTree = "<group>"; };
 		BF73035870685BA592B67360259BC12F /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = Sources/CircuitBreaker/Collection.swift; sourceTree = "<group>"; };
 		C1E2975F05775DF2ECA6258ABB90ACB1 /* Locks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locks.swift; path = Sources/Logging/Locks.swift; sourceTree = "<group>"; };
-		C61F2AC21B3E129549B3E1D52CC0551E /* Pods_EmojiJournalMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmojiJournalMobileApp.framework; path = "Pods-EmojiJournalMobileApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61F2AC21B3E129549B3E1D52CC0551E /* Pods_EmojiJournalMobileApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmojiJournalMobileApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EDE5FEBA0D519E3BB57DFC846C789A /* LoggerAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoggerAPI-prefix.pch"; sourceTree = "<group>"; };
+		CB530DE5DA3D8CC1C5A527ABB3A50F9A /* ISEmojiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-umbrella.h"; sourceTree = "<group>"; };
 		CD1BB8D2C874A3E8E0C3BBF789A156A4 /* Pods-EmojiJournalMobileApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmojiJournalMobileApp-dummy.m"; sourceTree = "<group>"; };
 		CDEFEEA023D5AC8E036384E6B89961DA /* SwiftyRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyRequest-prefix.pch"; sourceTree = "<group>"; };
-		CE7BCC6406B2E7D0A7EBFF6695CEDABA /* ISEmojiList_iOS11.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList_iOS11.plist; path = Source/Assets/ISEmojiList_iOS11.plist; sourceTree = "<group>"; };
-		CF747B50B373D2201C4D16B63A4BEEC1 /* ic_animals_nature@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_animals_nature@2x.png"; path = "Source/Assets/Images/ic_animals_nature@2x.png"; sourceTree = "<group>"; };
-		D0475AFC7BE295C8C47FF6590BB98C27 /* ic_recents@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_recents@2x.png"; path = "Source/Assets/Images/ic_recents@2x.png"; sourceTree = "<group>"; };
+		CF929B5D415F4176BEFA2DA541C488A4 /* EmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiView.swift; path = Source/Classes/Views/EmojiView/EmojiView.swift; sourceTree = "<group>"; };
+		D09FF04BE41FBECD71961A9C9946E89B /* ic_emojiDelete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_emojiDelete@3x.png"; path = "Source/Assets/Images/ic_emojiDelete@3x.png"; sourceTree = "<group>"; };
 		D27A4B05575D5BA33825C7C9B21E98C3 /* QueryDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryDecoder.swift; path = Sources/KituraContracts/CodableQuery/QueryDecoder.swift; sourceTree = "<group>"; };
-		D27DFD2B13091DD09CB7585948CEB3C0 /* ic_animals_nature.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_animals_nature.png; path = Source/Assets/Images/ic_animals_nature.png; sourceTree = "<group>"; };
 		D2DC9630084C2D9680E5F8890F6FA2BD /* KituraContracts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KituraContracts-prefix.pch"; sourceTree = "<group>"; };
-		D2E0EED38A7C04BDA12EBE49615BB4DB /* ISEmojiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-prefix.pch"; sourceTree = "<group>"; };
-		D4FA49E92C7FD940AE743162F81C72BF /* ic_emojiDelete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_emojiDelete.png; path = Source/Assets/Images/ic_emojiDelete.png; sourceTree = "<group>"; };
 		D509148A55FD9BD4229271EDE33A555D /* IBMSwiftCircuitBreaker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBMSwiftCircuitBreaker-dummy.m"; sourceTree = "<group>"; };
-		D52E760FD62BA8ADD7B02B9D32A61573 /* ISEmojiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISEmojiView-dummy.m"; sourceTree = "<group>"; };
-		D5458CAD4D1FA6A1299B3730A8040000 /* EmojiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiLoader.swift; path = Source/Classes/Helpers/EmojiLoader.swift; sourceTree = "<group>"; };
-		D674B5E4D9BDF19E515CE608C2B3F937 /* ic_emojiDelete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_emojiDelete@3x.png"; path = "Source/Assets/Images/ic_emojiDelete@3x.png"; sourceTree = "<group>"; };
 		D82C14CC0A9346986D5F9D2DBF9E88DD /* CircuitBreaker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircuitBreaker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83A4434AD5EC53F62FB5047A371C3EF /* Pods-EmojiJournalMobileApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmojiJournalMobileApp-frameworks.sh"; sourceTree = "<group>"; };
 		D8EA285BF999BA6DE0801B8CD078809A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D92FFF3470F826610916B23FEDF424CA /* EmojiCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCategory.swift; path = Source/Classes/Models/EmojiCategory.swift; sourceTree = "<group>"; };
 		DAB840FBD8031F726D7EEA3A33D4CF41 /* LoggerAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoggerAPI-Info.plist"; sourceTree = "<group>"; };
 		DAC232CE591E1973AEA7B580900C59BD /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/CircuitBreaker/Utils.swift; sourceTree = "<group>"; };
-		DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ISEmojiView.bundle; path = "ISEmojiView-ISEmojiView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISEmojiView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0DBFF78F9E36FC1CE2FF7820EDC3C9 /* EmojiPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiPopView.swift; path = Source/Classes/Views/EmojiPopView/EmojiPopView.swift; sourceTree = "<group>"; };
 		DC71BBC7F11C9779F4FA69F64E8C7B82 /* ClientCredentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientCredentials.swift; path = Sources/KituraKit/ClientCredentials.swift; sourceTree = "<group>"; };
-		DCA8DEB4070BE1F020B52B233CA4D220 /* ic_animals_nature@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_animals_nature@3x.png"; path = "Source/Assets/Images/ic_animals_nature@3x.png"; sourceTree = "<group>"; };
 		DDBD5A0DC63F6C7DCFF4B04B0F5950D6 /* LoggerAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoggerAPI.xcconfig; sourceTree = "<group>"; };
 		DE8C6F793C4789A846C77C68C45BE1E2 /* RestUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestUtilities.swift; path = Sources/SwiftyRequest/RestUtilities.swift; sourceTree = "<group>"; };
-		E183A91B7F17DDA1BE0BB8315EA8E666 /* EmojiCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCategory.swift; path = Source/Classes/Models/EmojiCategory.swift; sourceTree = "<group>"; };
+		DEFD53C26A0CEEFABF8FC8383646DAFB /* ic_travel_places@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_travel_places@3x.png"; path = "Source/Assets/Images/ic_travel_places@3x.png"; sourceTree = "<group>"; };
 		E1BFDE216E598130A5ADC752FCFF5122 /* KituraContracts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KituraContracts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E22E47B4594A7936ED5EEF515F06C735 /* ic_flags@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_flags@3x.png"; path = "Source/Assets/Images/ic_flags@3x.png"; sourceTree = "<group>"; };
 		E44B222846369E9B392BE2B3EB499366 /* Logging.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Logging.modulemap; sourceTree = "<group>"; };
 		E54E99C76CA91CD13BBE94B8B53EA1EC /* KituraKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KituraKit-umbrella.h"; sourceTree = "<group>"; };
-		E54FEB53345DCE124229399D7668B215 /* ISEmojiList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList.plist; path = Source/Assets/ISEmojiList.plist; sourceTree = "<group>"; };
-		E5EE27DB97D3D08A7AF90EDE8C5105F1 /* ic_food_drink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_food_drink@2x.png"; path = "Source/Assets/Images/ic_food_drink@2x.png"; sourceTree = "<group>"; };
 		E66E2E50D72100A1F03AA45686A167B4 /* BodyFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyFormat.swift; path = Sources/KituraContracts/BodyFormat.swift; sourceTree = "<group>"; };
-		E70AF0255FB2E54F41DEB4DFC7951C2D /* ic_smileys_people@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_smileys_people@2x.png"; path = "Source/Assets/Images/ic_smileys_people@2x.png"; sourceTree = "<group>"; };
 		E791629B142C76779BEE1E9F490D247A /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/SwiftyRequest/StringExtensions.swift; sourceTree = "<group>"; };
-		E95F4FA5FD947D9E88BF7DE488CE51B2 /* ic_smileys_people@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_smileys_people@3x.png"; path = "Source/Assets/Images/ic_smileys_people@3x.png"; sourceTree = "<group>"; };
-		EA629C0D8BECA68A6BBC170F1A072ECA /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Source/Classes/Models/Category.swift; sourceTree = "<group>"; };
+		E86FFCD3315C3D05924DD3C5E21F0C72 /* EmojiCollectionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmojiCollectionView.xib; path = Source/Assets/Views/EmojiCollectionView.xib; sourceTree = "<group>"; };
+		E9151E734464B51E21971778F507BA4D /* ISEmojiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-prefix.pch"; sourceTree = "<group>"; };
 		EAA2AEE06E33B7AA53FFBFAFDED24AED /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = Sources/Logging/Logging.swift; sourceTree = "<group>"; };
-		EAF663340E05E113AF19401D28692EBE /* ISEmojiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISEmojiView.xcconfig; sourceTree = "<group>"; };
-		EB1DB9210C2E66BBD122C76B156376E2 /* PageControlBottomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlBottomView.xib; path = Source/Assets/Views/PageControlBottomView.xib; sourceTree = "<group>"; };
-		EE1EAE2E200A86785D973E7E378EBCD5 /* ic_recents.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_recents.png; path = Source/Assets/Images/ic_recents.png; sourceTree = "<group>"; };
+		EE303F6B2156BE7B02FAAE8741E100A9 /* PageControlBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageControlBottomView.swift; path = Source/Classes/Views/BottomViews/PageControlBottomView/PageControlBottomView.swift; sourceTree = "<group>"; };
 		EEDA128ED65699101D646A50F9B29849 /* CircuitBreaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircuitBreaker.swift; path = Sources/CircuitBreaker/CircuitBreaker.swift; sourceTree = "<group>"; };
+		F24FF59C043654D619987A12332FAB71 /* ic_smileys_people@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_smileys_people@2x.png"; path = "Source/Assets/Images/ic_smileys_people@2x.png"; sourceTree = "<group>"; };
+		F2AD92CAE47688DC402FAB748D2AAEA5 /* ResourceBundle-ISEmojiView-ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ISEmojiView-ISEmojiView-Info.plist"; sourceTree = "<group>"; };
+		F2F7B95CF1138F2BDC54A16EE86D59E7 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Classes/Helpers/Constants.swift; sourceTree = "<group>"; };
 		F353F3C61CBF181F0D1E4C1CDF4D8D09 /* LoggerAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoggerAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C9980B5DFF22E41C8483B291F409F2 /* CategoriesBottomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CategoriesBottomView.xib; path = Source/Assets/Views/CategoriesBottomView.xib; sourceTree = "<group>"; };
 		F509CFA154694D0D85E811F4D3C699A7 /* Logging-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Logging-prefix.pch"; sourceTree = "<group>"; };
-		F51D7B7A03492578CB8E06B800BBD062 /* EmojiPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiPopView.swift; path = Source/Classes/Views/EmojiPopView/EmojiPopView.swift; sourceTree = "<group>"; };
-		F62882D08B0E1E625A80191746F6533A /* ic_flags.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_flags.png; path = Source/Assets/Images/ic_flags.png; sourceTree = "<group>"; };
 		F6B5AB29548AF3DF6D9384CD6D93EE02 /* BodyEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyEncoder.swift; path = Sources/KituraContracts/BodyEncoder.swift; sourceTree = "<group>"; };
-		FD14B790CD7EF81012D910D7657206F3 /* EmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiView.swift; path = Source/Classes/Views/EmojiView/EmojiView.swift; sourceTree = "<group>"; };
+		FAAF167715F13C19D4ACA189BD6437F2 /* ic_animals_nature.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_animals_nature.png; path = Source/Assets/Images/ic_animals_nature.png; sourceTree = "<group>"; };
+		FD188AAB81A67E468B31DF3B2E7B7C85 /* ic_activity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_activity.png; path = Source/Assets/Images/ic_activity.png; sourceTree = "<group>"; };
+		FD4FDE7330987EE0ACB95DD6B229E03C /* EmojiCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionCell.swift; path = Source/Classes/Views/EmojiCollectionView/EmojiCollectionCell.swift; sourceTree = "<group>"; };
 		FD9FFB3E47D20D6977D94706A4B39B78 /* KituraKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KituraKit-Info.plist"; sourceTree = "<group>"; };
 		FF2BC3ED41A5B3EC72172324AFCB1CB2 /* IBMSwiftCircuitBreaker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBMSwiftCircuitBreaker-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -499,49 +501,19 @@
 			path = "Target Support Files/Pods-EmojiJournalMobileApp";
 			sourceTree = "<group>";
 		};
-		1359F228A9D08E6D377E1A8B5F3ED21F /* Resources */ = {
+		18F1E9FD64F328260951F76B8CFF99C6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AFC6740A2EE732819D0E2416E8ABC56C /* CategoriesBottomView.xib */,
-				A9A96FB29E5CA92091A9F059948783F6 /* EmojiCollectionView.xib */,
-				BBF1F9E9F160C8E72D8853F315D71A4B /* ic_activity.png */,
-				444A21898EDBEEC038A8A302AE3ABCF7 /* ic_activity@2x.png */,
-				5691496B7C2F550D3BC1E23E6AFAE646 /* ic_activity@3x.png */,
-				D27DFD2B13091DD09CB7585948CEB3C0 /* ic_animals_nature.png */,
-				CF747B50B373D2201C4D16B63A4BEEC1 /* ic_animals_nature@2x.png */,
-				DCA8DEB4070BE1F020B52B233CA4D220 /* ic_animals_nature@3x.png */,
-				D4FA49E92C7FD940AE743162F81C72BF /* ic_emojiDelete.png */,
-				AE81BB70E449A005899A82D3CB86835E /* ic_emojiDelete@2x.png */,
-				D674B5E4D9BDF19E515CE608C2B3F937 /* ic_emojiDelete@3x.png */,
-				F62882D08B0E1E625A80191746F6533A /* ic_flags.png */,
-				2FB0CA999DE991A3C0E301E53CF81B7F /* ic_flags@2x.png */,
-				E22E47B4594A7936ED5EEF515F06C735 /* ic_flags@3x.png */,
-				086D1412E1CC8E92C27025A2D3C1409A /* ic_food_drink.png */,
-				E5EE27DB97D3D08A7AF90EDE8C5105F1 /* ic_food_drink@2x.png */,
-				692957A4CC3F6DF527FE03B1BA487C76 /* ic_food_drink@3x.png */,
-				768073C874397DAE8C14EB1CB45B2492 /* ic_objects.png */,
-				57AF7B8CE755761FD0BDE1F854479D89 /* ic_objects@2x.png */,
-				A046C407BC3D72299727EB0113E61BCC /* ic_objects@3x.png */,
-				EE1EAE2E200A86785D973E7E378EBCD5 /* ic_recents.png */,
-				D0475AFC7BE295C8C47FF6590BB98C27 /* ic_recents@2x.png */,
-				A3789AC214EE66D24BEE2EA11EEF2643 /* ic_recents@3x.png */,
-				708275420E638067EF0861064E9EEA93 /* ic_smileys_people.png */,
-				E70AF0255FB2E54F41DEB4DFC7951C2D /* ic_smileys_people@2x.png */,
-				E95F4FA5FD947D9E88BF7DE488CE51B2 /* ic_smileys_people@3x.png */,
-				77BDC7E0B3FDFD21A2F738CFCFEC18CA /* ic_symbols.png */,
-				21472927A9B9484AB2C7161670CD095B /* ic_symbols@2x.png */,
-				093CA9ADB20AD2D9CBB0E72AACCAFB1C /* ic_symbols@3x.png */,
-				9D9EC81FD84F37549CCA5F7018A54C17 /* ic_travel_places.png */,
-				652AA5296E7067B6191D8B6471BD8B23 /* ic_travel_places@2x.png */,
-				B32A9DDCA42B455CEE788C49E3355F56 /* ic_travel_places@3x.png */,
-				390CA0D8BD183A8687E3D7C8A742A93D /* Images */,
-				E54FEB53345DCE124229399D7668B215 /* ISEmojiList.plist */,
-				BABBB71C6A8BF86D0F196CF90F155FDD /* ISEmojiList_iOS10.plist */,
-				CE7BCC6406B2E7D0A7EBFF6695CEDABA /* ISEmojiList_iOS11.plist */,
-				EB1DB9210C2E66BBD122C76B156376E2 /* PageControlBottomView.xib */,
-				5A74C528557717FF1E6676CBD7CE07F7 /* Views */,
+				3E59B7FA88A8D803CF840BE1D9D2A31D /* ISEmojiView.modulemap */,
+				0D398EE3BC943DD0B13AC49D12E7A703 /* ISEmojiView.xcconfig */,
+				2E00CF27220FDFBAC97DCEE72C1B9EA4 /* ISEmojiView-dummy.m */,
+				09D5C6400D040E8BCBBDDE3A732B4F55 /* ISEmojiView-Info.plist */,
+				E9151E734464B51E21971778F507BA4D /* ISEmojiView-prefix.pch */,
+				CB530DE5DA3D8CC1C5A527ABB3A50F9A /* ISEmojiView-umbrella.h */,
+				F2AD92CAE47688DC402FAB748D2AAEA5 /* ResourceBundle-ISEmojiView-ISEmojiView-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/ISEmojiView";
 			sourceTree = "<group>";
 		};
 		1B8975F2EDD9A6A2F620B5DFA655ACAF /* LoggerAPI */ = {
@@ -550,7 +522,6 @@
 				59E5C48F9249555275842F0094A655C6 /* Logger.swift */,
 				4BC555E74CCC668D2BDD62DA6722DF75 /* Support Files */,
 			);
-			name = LoggerAPI;
 			path = LoggerAPI;
 			sourceTree = "<group>";
 		};
@@ -569,7 +540,6 @@
 				DAC232CE591E1973AEA7B580900C59BD /* Utils.swift */,
 				E6C8D01F8E76786B4D9F111FB3E13976 /* Support Files */,
 			);
-			name = IBMSwiftCircuitBreaker;
 			path = IBMSwiftCircuitBreaker;
 			sourceTree = "<group>";
 		};
@@ -581,7 +551,6 @@
 				039482BE88972A29FE8C178C67DF3801 /* LogHandler.swift */,
 				526EC87B531E1CEDD44B6DAD514E6EE1 /* Support Files */,
 			);
-			name = Logging;
 			path = Logging;
 			sourceTree = "<group>";
 		};
@@ -603,7 +572,7 @@
 			isa = PBXGroup;
 			children = (
 				25640D68CA8B0F3C4ECD5107BBB202B0 /* IBMSwiftCircuitBreaker */,
-				F15AAF5C6A0446F51CD02E80557B298D /* ISEmojiView */,
+				FF57AC606E3591043C276FCFDB7D2550 /* ISEmojiView */,
 				9E61627582E6A2E2D3AC9E75AC63D6F5 /* KituraContracts */,
 				AB219758CBE390D066526A0CD96B88D6 /* KituraKit */,
 				1B8975F2EDD9A6A2F620B5DFA655ACAF /* LoggerAPI */,
@@ -642,8 +611,53 @@
 				E791629B142C76779BEE1E9F490D247A /* StringExtensions.swift */,
 				DF94BA607F8AD0D354A288F892AE9CDB /* Support Files */,
 			);
-			name = SwiftyRequest;
 			path = SwiftyRequest;
+			sourceTree = "<group>";
+		};
+		612B59459F8497FBE80507DBF4D1D8C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9980B5DFF22E41C8483B291F409F2 /* CategoriesBottomView.xib */,
+				E86FFCD3315C3D05924DD3C5E21F0C72 /* EmojiCollectionView.xib */,
+				FD188AAB81A67E468B31DF3B2E7B7C85 /* ic_activity.png */,
+				8D194FA3529A3A8F0C91BF133F450193 /* ic_activity@2x.png */,
+				5BE40717587F4EFBA8F9589752CB0CD7 /* ic_activity@3x.png */,
+				FAAF167715F13C19D4ACA189BD6437F2 /* ic_animals_nature.png */,
+				39D9A4AA066C3FC802BB41A5D2D8EB32 /* ic_animals_nature@2x.png */,
+				76A241799D3E4ADE3F774269FE792E86 /* ic_animals_nature@3x.png */,
+				590CBD50AB8B294008E35E0A1D7CCB8D /* ic_emojiDelete.png */,
+				0D02E2B000AA5AF586E4BB66D5426ED1 /* ic_emojiDelete@2x.png */,
+				D09FF04BE41FBECD71961A9C9946E89B /* ic_emojiDelete@3x.png */,
+				07E3FE9CF991C013FE515AA92968F950 /* ic_flags.png */,
+				8D0FF7B4B309A546E68114D649153FE7 /* ic_flags@2x.png */,
+				3DDE01928C40AA423282486D28229E50 /* ic_flags@3x.png */,
+				8EC69286B44ADC1BF3A7DD08D9E85772 /* ic_food_drink.png */,
+				A5880435EEBDEC448175463EB6FF591C /* ic_food_drink@2x.png */,
+				58676E95DF8C02B0A60A79170C1971BA /* ic_food_drink@3x.png */,
+				29CA4E812D8BFC3F4817721F51590DCD /* ic_objects.png */,
+				AACB6F63F5ADF230B80B1E3033F0A19F /* ic_objects@2x.png */,
+				68BBCA262DC3C128841787326EECD511 /* ic_objects@3x.png */,
+				69390A4DC049001568DB894948BD1B42 /* ic_recents.png */,
+				558A03407A1944719F7B05022034CC10 /* ic_recents@2x.png */,
+				6209358CCA7A1CE17DB5045563A21D9F /* ic_recents@3x.png */,
+				1E934A66AA1DA2B2DA80CCBE6B8EDDD3 /* ic_smileys_people.png */,
+				F24FF59C043654D619987A12332FAB71 /* ic_smileys_people@2x.png */,
+				221513B01A9719AFD9E2A5465B4D61EE /* ic_smileys_people@3x.png */,
+				ABBACE88F2F161C9D7B926A7FB4BEDB6 /* ic_symbols.png */,
+				6AEBD899ADE6823E3659CF575ADA5C16 /* ic_symbols@2x.png */,
+				855FF6692FA0E85D35C221620B49A212 /* ic_symbols@3x.png */,
+				8E160568C470148377D4AA165C3640AB /* ic_travel_places.png */,
+				2F0D83012914938A1AEB03F40A295C2B /* ic_travel_places@2x.png */,
+				DEFD53C26A0CEEFABF8FC8383646DAFB /* ic_travel_places@3x.png */,
+				BC31B80AB9214AB7412CBBA4BBDD52E7 /* Images */,
+				0696DD90A2F386DB2A67085CC0E9D209 /* Images.xcassets */,
+				3FF81F0F0FD5B2DCB19D2AEA1D4A4F0B /* ISEmojiList.plist */,
+				07337C90D68DE008BF49798D9BFD13C9 /* ISEmojiList_iOS10.plist */,
+				A8669684C364891B0B3975D6F8583F9C /* ISEmojiList_iOS11.plist */,
+				09D8B79E9DEC6138D0C1DF8086331EB5 /* PageControlBottomView.xib */,
+				21A51244192C380A26A2E462409D4E44 /* Views */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB7572D623A7FB1CF29B3E9650249A0 /* Support Files */ = {
@@ -682,7 +696,6 @@
 				88E7249FEE192802208BBE707F6F164C /* QueryEncoder.swift */,
 				E6CC9A8BED80575E4127236B27BBFFE0 /* Support Files */,
 			);
-			name = KituraContracts;
 			path = KituraContracts;
 			sourceTree = "<group>";
 		};
@@ -699,21 +712,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A34A06D41AFC40EA26B492C72562C57F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A5D46E5F9D97781D43249D3C76948708 /* ISEmojiView.modulemap */,
-				EAF663340E05E113AF19401D28692EBE /* ISEmojiView.xcconfig */,
-				D52E760FD62BA8ADD7B02B9D32A61573 /* ISEmojiView-dummy.m */,
-				95D9C8A034A22ED415B0BB5ADE5A30A0 /* ISEmojiView-Info.plist */,
-				D2E0EED38A7C04BDA12EBE49615BB4DB /* ISEmojiView-prefix.pch */,
-				99D2A2CE813D5D4A6963C948647461B6 /* ISEmojiView-umbrella.h */,
-				984D03B142FED720070C1423FF434E43 /* ResourceBundle-ISEmojiView-ISEmojiView-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ISEmojiView";
-			sourceTree = "<group>";
-		};
 		AB219758CBE390D066526A0CD96B88D6 /* KituraKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -723,7 +721,6 @@
 				B3A416A78A06D24552DD9AB6B18E32F9 /* RequestErrorExtension.swift */,
 				7DB7572D623A7FB1CF29B3E9650249A0 /* Support Files */,
 			);
-			name = KituraKit;
 			path = KituraKit;
 			sourceTree = "<group>";
 		};
@@ -804,28 +801,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F15AAF5C6A0446F51CD02E80557B298D /* ISEmojiView */ = {
+		FF57AC606E3591043C276FCFDB7D2550 /* ISEmojiView */ = {
 			isa = PBXGroup;
 			children = (
-				0AB8660086C15B8566C07B60A37DD483 /* Bundle.swift */,
-				31FE637A24AF7E0BA9EB21A8AC457428 /* CategoriesBottomView.swift */,
-				EA629C0D8BECA68A6BBC170F1A072ECA /* Category.swift */,
-				ADE42FCDCD8ADFE6774841A84B398568 /* CategoryCell.swift */,
-				AD3B9CA8E026FF02946BDA8821ABE139 /* Constants.swift */,
-				8B14C2640432F471DE3594A1A4B6C736 /* Emoji.swift */,
-				E183A91B7F17DDA1BE0BB8315EA8E666 /* EmojiCategory.swift */,
-				558705AE6B1A758A361FF2D3CCD928D2 /* EmojiCollectionCell.swift */,
-				8072C80295391823C424D08D2D858D29 /* EmojiCollectionView.swift */,
-				D5458CAD4D1FA6A1299B3730A8040000 /* EmojiLoader.swift */,
-				F51D7B7A03492578CB8E06B800BBD062 /* EmojiPopView.swift */,
-				FD14B790CD7EF81012D910D7657206F3 /* EmojiView.swift */,
-				608D7B18B49FF4621D215BBFE8B20B59 /* KeyboardSettings.swift */,
-				4781D2A18C26874C838C89EA732C0C87 /* PageControlBottomView.swift */,
-				0E3FDAA309C9607E4CA32A89F876979B /* RecentEmojisManager.swift */,
-				1359F228A9D08E6D377E1A8B5F3ED21F /* Resources */,
-				A34A06D41AFC40EA26B492C72562C57F /* Support Files */,
+				9B30CE38D8601838E37F87BECA1A2D33 /* Bundle.swift */,
+				4AF1A71B5534E9479C2FC22FD325920C /* CategoriesBottomView.swift */,
+				2C389377D19A2B013F02B42004B40C29 /* Category.swift */,
+				76C9A2DF73FBB2A0DB1B2A7105CBD809 /* CategoryCell.swift */,
+				F2F7B95CF1138F2BDC54A16EE86D59E7 /* Constants.swift */,
+				38BE4F87E7A3591ED86647319FFF4D28 /* Emoji.swift */,
+				D92FFF3470F826610916B23FEDF424CA /* EmojiCategory.swift */,
+				FD4FDE7330987EE0ACB95DD6B229E03C /* EmojiCollectionCell.swift */,
+				68DBB7377BB9CEFF77C0F91EEB94BA95 /* EmojiCollectionView.swift */,
+				287C7C9BA91F613AC94A793B24FAF421 /* EmojiLoader.swift */,
+				DC0DBFF78F9E36FC1CE2FF7820EDC3C9 /* EmojiPopView.swift */,
+				CF929B5D415F4176BEFA2DA541C488A4 /* EmojiView.swift */,
+				5FD50C5CA2FE7F228EE757777A81A192 /* KeyboardSettings.swift */,
+				EE303F6B2156BE7B02FAAE8741E100A9 /* PageControlBottomView.swift */,
+				5E1F747FA9B476D9909BF6714DA3DCC2 /* RecentEmojisManager.swift */,
+				612B59459F8497FBE80507DBF4D1D8C4 /* Resources */,
+				18F1E9FD64F328260951F76B8CFF99C6 /* Support Files */,
 			);
-			name = ISEmojiView;
 			path = ISEmojiView;
 			sourceTree = "<group>";
 		};
@@ -1044,7 +1040,7 @@
 			buildPhases = (
 				35BD60603EEC373A0331DF02207F05A3 /* Sources */,
 				0D258D1898A6C665286178E5D1B1973C /* Frameworks */,
-				53687B2462B98FC0BF0543C59BA9EC6F /* Resources */,
+				A1746B5B05CA3C639C8B9A9C4DD78F18 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1082,7 +1078,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1030;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -1090,6 +1086,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DE64142BF4BCFD243A86CAE9CE59ED63 /* Products */;
@@ -1124,51 +1121,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53687B2462B98FC0BF0543C59BA9EC6F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EFD35CBD8616FC4D49C00D1BCEC7F48 /* CategoriesBottomView.xib in Resources */,
-				C8F7E5987D62C0EC9C97D3593B7D8CCE /* EmojiCollectionView.xib in Resources */,
-				0D1BC68925BF49EEA779F9D93112825D /* ic_activity.png in Resources */,
-				CAEE73122845B1D2924DCC47F2110598 /* ic_activity@2x.png in Resources */,
-				5050D0E8ED2178804DB0AFD24FA1EF98 /* ic_activity@3x.png in Resources */,
-				EEDCC610864D471042E5200BFA73DF14 /* ic_animals_nature.png in Resources */,
-				C508F82A9C28B96A9FF9ADEDFC879BFC /* ic_animals_nature@2x.png in Resources */,
-				1F265A5625DE5393724EA1233E4D5DAF /* ic_animals_nature@3x.png in Resources */,
-				7BA85948CBACA1C377BCE71DE7D972AC /* ic_emojiDelete.png in Resources */,
-				793CC4E54EE83B218D3568845BC9FF72 /* ic_emojiDelete@2x.png in Resources */,
-				323C7576B8F0E7EB3EE2D96D14438DEE /* ic_emojiDelete@3x.png in Resources */,
-				EC9E1E90CE056310B64872116BF23488 /* ic_flags.png in Resources */,
-				BE2B7573344AD839044054F435E33F98 /* ic_flags@2x.png in Resources */,
-				E545405129B572FF9E47889189C9AC22 /* ic_flags@3x.png in Resources */,
-				FD8F06CE62A821A4C89ED1ED69CB56E6 /* ic_food_drink.png in Resources */,
-				DE780AA99B8269ADBCC8CF1550638F13 /* ic_food_drink@2x.png in Resources */,
-				198058404D012F70AB9EF01BCB2FEB63 /* ic_food_drink@3x.png in Resources */,
-				C680D851784676760F73FBA7AB87AEF0 /* ic_objects.png in Resources */,
-				E8201EDD3423C98E0F8187E00B8DFCB3 /* ic_objects@2x.png in Resources */,
-				6E58200D2FA902FB5D99E29210AEACBB /* ic_objects@3x.png in Resources */,
-				7BDD40E182365C2697B2792010E32B25 /* ic_recents.png in Resources */,
-				39E47F96CDF4213A13E7DB897E9ED539 /* ic_recents@2x.png in Resources */,
-				795DCAB04E6295B1035EFD911891EB77 /* ic_recents@3x.png in Resources */,
-				6C5D6129C376EC677A297142E7C2E54E /* ic_smileys_people.png in Resources */,
-				8DCD2789DE2BBB08E92D73211E43BDD1 /* ic_smileys_people@2x.png in Resources */,
-				DADA63CC7D4F13D57F30A0A9B2A51A3E /* ic_smileys_people@3x.png in Resources */,
-				4F0D31F09210C10E302D86B9AAAB6795 /* ic_symbols.png in Resources */,
-				8E8AA966A089DAC7191C41CE800715EA /* ic_symbols@2x.png in Resources */,
-				D0326AC648A129DBE1CD98ECC14E5D31 /* ic_symbols@3x.png in Resources */,
-				683CA710559AB6BD89D8142B402ED02B /* ic_travel_places.png in Resources */,
-				A6B559AB004D329C47D874B522CA4B25 /* ic_travel_places@2x.png in Resources */,
-				EDFD2B8474AA75DBBBF6A4B8755E25EB /* ic_travel_places@3x.png in Resources */,
-				60A398DCFE24A7F05F7FF21BB82161FE /* Images in Resources */,
-				DBA009A2939E37A7016245DC87075B32 /* ISEmojiList.plist in Resources */,
-				8A19CAC419F811445A15563828F1B9BF /* ISEmojiList_iOS10.plist in Resources */,
-				0FB5CA06B1C7ED10039D6076A0D88765 /* ISEmojiList_iOS11.plist in Resources */,
-				6A1335060975EB3095568F6AE104B7C1 /* PageControlBottomView.xib in Resources */,
-				990E374B474EB01595B0653A785866AF /* Views in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		89E0281903C3593C43BF1A413AB7F429 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1180,6 +1132,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1746B5B05CA3C639C8B9A9C4DD78F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8B6A92B32DC21D62EDE84C54C5E9B /* CategoriesBottomView.xib in Resources */,
+				5D025697F9352ED61242DA9C986BAD18 /* EmojiCollectionView.xib in Resources */,
+				1D41DCDFE1210CE21B4D1198FB932D14 /* ic_activity.png in Resources */,
+				14C3495A4839B20F471F52E7B41EDEFD /* ic_activity@2x.png in Resources */,
+				2C64C724E269A066584CF27583041A80 /* ic_activity@3x.png in Resources */,
+				9B13D26CE1356655399D45C28996E65B /* ic_animals_nature.png in Resources */,
+				F1B8BC5E189745D1320375ED9550C783 /* ic_animals_nature@2x.png in Resources */,
+				71C677B5D40EBF3D96C7F3FFAF8C62F7 /* ic_animals_nature@3x.png in Resources */,
+				37C2E2BD90B642AAD6BE9E360C0DE326 /* ic_emojiDelete.png in Resources */,
+				E72C1C206BC754B120420075F6F073C9 /* ic_emojiDelete@2x.png in Resources */,
+				0D3BE35881A3C43B8E4DCEB467E321F9 /* ic_emojiDelete@3x.png in Resources */,
+				574C1632C5001567AF15F55414B0FA2C /* ic_flags.png in Resources */,
+				27DAA895DA299EEFB869DB4B0F02A089 /* ic_flags@2x.png in Resources */,
+				8F0FEC892120219F855A266E2458F929 /* ic_flags@3x.png in Resources */,
+				32D0109E5C3C0DA88F3094FBBB6EEC54 /* ic_food_drink.png in Resources */,
+				9D15BB2CC3D91C6757B9895B9858136B /* ic_food_drink@2x.png in Resources */,
+				1A75617D7122FDE5C351A0115D53631D /* ic_food_drink@3x.png in Resources */,
+				051D3326FA346BAFFACBE588358B4F63 /* ic_objects.png in Resources */,
+				6C18AD4C702B7AEC25ADD5B17DC5CA9A /* ic_objects@2x.png in Resources */,
+				70A3F28D0ADB766FB0569B6712016C5E /* ic_objects@3x.png in Resources */,
+				49DB9153136B8745195042E4EDF45386 /* ic_recents.png in Resources */,
+				3CF5EF66C42E96515009A38D42E05DE1 /* ic_recents@2x.png in Resources */,
+				E6F65F1066E956C77D61BFD0CE0CA75D /* ic_recents@3x.png in Resources */,
+				F65FFD1F3D8C4A7BC6AC377CF6240D0D /* ic_smileys_people.png in Resources */,
+				96B08E42718F454631349E03754F719D /* ic_smileys_people@2x.png in Resources */,
+				63DAFA7E746A9CD6B20EB34585B4F0E2 /* ic_smileys_people@3x.png in Resources */,
+				2CA269C50CB9F05BCE7414F4ABFF030D /* ic_symbols.png in Resources */,
+				C2B0DB390F097E614478DFA707548EF3 /* ic_symbols@2x.png in Resources */,
+				3CC24AF35E33BEC1E5D4909B8B282E6A /* ic_symbols@3x.png in Resources */,
+				D2EEE7F61382FE248753A8B3B33DE8D5 /* ic_travel_places.png in Resources */,
+				F0741B7CE2DD0ED8CAF0A43D02B8719F /* ic_travel_places@2x.png in Resources */,
+				6BDBAA54FED30E05BB158554C0FC16BE /* ic_travel_places@3x.png in Resources */,
+				E680CF07EE9FE831317DD5C1EB5DADA8 /* Images in Resources */,
+				8D63BCBEFB02002C66CFAB1C029E7B03 /* Images.xcassets in Resources */,
+				97A435A6890C808BB339EAF50DCE4592 /* ISEmojiList.plist in Resources */,
+				0501985D5549F90B5FCCD0DE930CAC02 /* ISEmojiList_iOS10.plist in Resources */,
+				35C9B4C20B1F0E5E9BB8AE7180DE7138 /* ISEmojiList_iOS11.plist in Resources */,
+				EFCF4717326A0CD1E9161D8016C44C9D /* PageControlBottomView.xib in Resources */,
+				9534145B5C6C42DF15C8724AFC8BFDEF /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1439,7 +1437,6 @@
 			baseConfigurationReference = 44BE50D87C85AA8EB36AC584F0CB5A25 /* Pods-EmojiJournalMobileApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1473,7 +1470,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D57880C6DF574ECB14F0E07F98E2206 /* IBMSwiftCircuitBreaker.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1569,9 +1565,8 @@
 		};
 		18FAE1A37D6DC484048A20F1BFC1911A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF663340E05E113AF19401D28692EBE /* ISEmojiView.xcconfig */;
+			baseConfigurationReference = 0D398EE3BC943DD0B13AC49D12E7A703 /* ISEmojiView.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1603,7 +1598,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2021BE68D99A776C4203D90CCCC575C /* SwiftyRequest.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1634,9 +1628,8 @@
 		};
 		279BAC3EA9DAB693D0799CA98CE19ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF663340E05E113AF19401D28692EBE /* ISEmojiView.xcconfig */;
+			baseConfigurationReference = 0D398EE3BC943DD0B13AC49D12E7A703 /* ISEmojiView.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1669,7 +1662,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33B38F381B0300C3047F26B8386296E7 /* KituraContracts.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1703,7 +1695,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2021BE68D99A776C4203D90CCCC575C /* SwiftyRequest.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1735,7 +1726,7 @@
 		};
 		6FE6C4137FBF63DEE65EBFF9A02441F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF663340E05E113AF19401D28692EBE /* ISEmojiView.xcconfig */;
+			baseConfigurationReference = 0D398EE3BC943DD0B13AC49D12E7A703 /* ISEmojiView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
@@ -1753,7 +1744,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDBD5A0DC63F6C7DCFF4B04B0F5950D6 /* LoggerAPI.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1786,7 +1776,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDBD5A0DC63F6C7DCFF4B04B0F5950D6 /* LoggerAPI.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1820,7 +1809,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CDA7BE621E005000DF1B5190AFCE8CA /* Logging.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1850,7 +1838,7 @@
 		};
 		95C20187F12F3017E516FA721309407E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF663340E05E113AF19401D28692EBE /* ISEmojiView.xcconfig */;
+			baseConfigurationReference = 0D398EE3BC943DD0B13AC49D12E7A703 /* ISEmojiView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
@@ -1869,7 +1857,6 @@
 			baseConfigurationReference = 15CB4A94A8E438F056DD8BD50A5EB5BF /* Pods-EmojiJournalMobileApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1904,7 +1891,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D57880C6DF574ECB14F0E07F98E2206 /* IBMSwiftCircuitBreaker.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1937,7 +1923,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CDA7BE621E005000DF1B5190AFCE8CA /* Logging.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1970,7 +1955,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33B38F381B0300C3047F26B8386296E7 /* KituraContracts.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2003,7 +1987,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72D5ABF38D3A1B7BB0135C1EA304A480 /* KituraKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2036,7 +2019,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72D5ABF38D3A1B7BB0135C1EA304A480 /* KituraKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2119,8 +2101,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
