@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         .red,
         .magenta,
         .yellow,
-        .lightGray
+        .lightGray,
+        .brown
     ]
     
     override func viewDidLoad() {
@@ -32,7 +33,6 @@ class ViewController: UIViewController {
         
     }
     
-
     @IBAction func buttonTapped(_ sender: Any) {
         
         self.view.backgroundColor = self.colorArray.randomElement()
@@ -43,6 +43,5 @@ class ViewController: UIViewController {
             self.removeSpinner()
         }
     }
-    
 }
 
