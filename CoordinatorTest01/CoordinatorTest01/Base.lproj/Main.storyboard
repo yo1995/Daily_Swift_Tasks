@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EntryVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="EntryVC" id="BYZ-38-t0r" customClass="EntryVC" customModule="CoordinatorTest01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vYl-Gz-nIX">
+                                <rect key="frame" x="147" y="244" width="120" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Go To FirstVC"/>
+                                <connections>
+                                    <action selector="goFirstTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q5w-XZ-071"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Dc-Dx-grR">
+                                <rect key="frame" x="132.5" y="320" width="149" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Go To SecondVC"/>
+                                <connections>
+                                    <action selector="goSecondTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ph-cT-W5p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Dc-Dx-grR" firstAttribute="top" secondItem="vYl-Gz-nIX" secondAttribute="bottom" constant="40" id="4az-zd-opx"/>
+                            <constraint firstItem="vYl-Gz-nIX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JdQ-Kv-O6b"/>
+                            <constraint firstItem="2Dc-Dx-grR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gGy-pc-ito"/>
+                            <constraint firstItem="vYl-Gz-nIX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="lx2-4l-wJc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-790" y="167"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="m88-vv-Db0">
+            <objects>
+                <viewController storyboardIdentifier="SecondVC" id="HsF-uY-aSc" customClass="SecondVC" customModule="CoordinatorTest01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zgc-CQ-rrf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="A0j-NV-zrR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LgR-2V-19a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="167"/>
+        </scene>
+        <!--FirstVC-->
+        <scene sceneID="2gw-AH-gRD">
+            <objects>
+                <viewController storyboardIdentifier="FirstVC" id="M9Y-op-bx4" customClass="FirstVC" customModule="CoordinatorTest01" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BsC-1L-nQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="JBl-Ey-wRO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVU-he-bkV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-72" y="167"/>
+        </scene>
+    </scenes>
+</document>
