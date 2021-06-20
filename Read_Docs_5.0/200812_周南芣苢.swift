@@ -14,3 +14,9 @@ print(周南)
 //采采芣苢，薄言捋之。
 //采采芣苢，薄言袺之。
 //采采芣苢，薄言襭之。
+
+var 周南新: String {
+    return ListFormatter.localizedString(byJoining: ["采", "有", "掇", "捋", "袺", "襭"].map {
+        "采采芣苢，薄言\($0)之。"
+    })
+}
