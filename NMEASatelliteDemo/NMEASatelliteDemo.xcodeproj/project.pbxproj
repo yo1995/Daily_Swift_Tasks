@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		006CC8FE2640710100CA0651 /* ArcGIS in Frameworks */ = {isa = PBXBuildFile; productRef = 006CC8FD2640710100CA0651 /* ArcGIS */; };
 		006CC9002640759100CA0651 /* SimulatedNMEADataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CC8FF2640759100CA0651 /* SimulatedNMEADataSource.swift */; };
+		008583842692AC0400C92F56 /* ArcGISToolkit in Frameworks */ = {isa = PBXBuildFile; productRef = 008583832692AC0400C92F56 /* ArcGISToolkit */; };
 		00D3723825CFAD6800243DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3723725CFAD6800243DCB /* AppDelegate.swift */; };
 		00D3723C25CFAD6800243DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3723B25CFAD6800243DCB /* ViewController.swift */; };
 		00D3723F25CFAD6800243DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D3723D25CFAD6800243DCB /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008583842692AC0400C92F56 /* ArcGISToolkit in Frameworks */,
 				006CC8FE2640710100CA0651 /* ArcGIS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +96,7 @@
 			name = NMEASatelliteDemo;
 			packageProductDependencies = (
 				006CC8FD2640710100CA0651 /* ArcGIS */,
+				008583832692AC0400C92F56 /* ArcGISToolkit */,
 			);
 			productName = NMEASatelliteDemo;
 			productReference = 00D3723425CFAD6800243DCB /* NMEASatelliteDemo.app */;
@@ -124,6 +127,7 @@
 			mainGroup = 00D3722B25CFAD6800243DCB;
 			packageReferences = (
 				006CC8FC2640710100CA0651 /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */,
+				008583822692AC0400C92F56 /* XCRemoteSwiftPackageReference "arcgis-runtime-toolkit-ios" */,
 			);
 			productRefGroup = 00D3723525CFAD6800243DCB /* Products */;
 			projectDirPath = "";
@@ -387,6 +391,14 @@
 				minimumVersion = 100.11.0;
 			};
 		};
+		008583822692AC0400C92F56 /* XCRemoteSwiftPackageReference "arcgis-runtime-toolkit-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Esri/arcgis-runtime-toolkit-ios/";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 100.11.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -394,6 +406,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 006CC8FC2640710100CA0651 /* XCRemoteSwiftPackageReference "arcgis-runtime-ios" */;
 			productName = ArcGIS;
+		};
+		008583832692AC0400C92F56 /* ArcGISToolkit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 008583822692AC0400C92F56 /* XCRemoteSwiftPackageReference "arcgis-runtime-toolkit-ios" */;
+			productName = ArcGISToolkit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
