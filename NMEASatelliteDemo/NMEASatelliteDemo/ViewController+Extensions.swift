@@ -102,6 +102,7 @@ extension ViewController {
         // Start the data source and location display.
         mockNMEADataSource.start()
         mapView.locationDisplay.start()
+        arView.startTracking(.continuous)
         // Recenter the map and set pan mode.
         recenter()
         // Add current location graphic to the overlay.
@@ -132,6 +133,7 @@ extension ViewController {
         mapView.locationDisplay.autoPanMode = .off
         // Stop the location display, which in turn stop the data source.
         mapView.locationDisplay.stop()
+        arView.stopTracking()
         // Pause the mock data generation.
         mockNMEADataSource.stop()
         // Disconnect from the mock data updates.
