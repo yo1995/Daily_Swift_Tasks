@@ -14,6 +14,7 @@
 
 import UIKit
 import ArcGIS
+import ArcGISToolkit
 
 class ViewController: UIViewController {
     // MARK: Storyboard views
@@ -41,6 +42,15 @@ class ViewController: UIViewController {
                 return scene
             }()
             sceneView.graphicsOverlays.addObjects(from: [satellitesGraphicsOverlay, currentLocationGraphicsOverlay])
+        }
+    }
+    
+    @IBOutlet var arView: ArcGISARView! {
+        didSet {
+            sceneView.graphicsOverlays.addObjects(from: [satellitesGraphicsOverlay])
+            // Turn the space and atmosphere effects on for an immersive experience.
+            sceneView.spaceEffect = .transparent
+            sceneView.atmosphereEffect = .none
         }
     }
     

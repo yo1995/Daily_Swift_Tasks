@@ -24,13 +24,21 @@ extension ViewController {
         case 0:
             mapView.isHidden = false
             sceneView.isHidden = true
+            arView.isHidden = true
             zoomInBarButtonItem.isEnabled = false
             zoomOutBarButtonItem.isEnabled = false
         case 1:
             mapView.isHidden = true
             sceneView.isHidden = false
+            arView.isHidden = true
             zoomInBarButtonItem.isEnabled = true
             zoomOutBarButtonItem.isEnabled = true
+        case 2:
+            mapView.isHidden = true
+            sceneView.isHidden = true
+            arView.isHidden = false
+            zoomInBarButtonItem.isEnabled = false
+            zoomOutBarButtonItem.isEnabled = false
         default:
             return
         }
@@ -87,6 +95,7 @@ extension ViewController {
     func start() {
         // Set NMEA location data source for location display.
         mapView.locationDisplay.dataSource = nmeaLocationDataSource
+        arView.locationDataSource = nmeaLocationDataSource
         // Set buttons states.
         sourceBarButtonItem.isEnabled = false
         resetBarButtonItem.isEnabled = true
