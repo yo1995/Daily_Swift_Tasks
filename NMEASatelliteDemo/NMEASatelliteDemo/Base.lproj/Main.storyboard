@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUL-x0-paX" customClass="AGSSceneView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AGX-MD-PDP" customClass="AGSMapView">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AGX-MD-PDP" customClass="AGSMapView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUL-x0-paX" customClass="AGSSceneView">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nz-7W-Wzw" customClass="ArcGISARView" customModule="ArcGISToolkit">
@@ -64,7 +64,7 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="Jix-ry-Xhb">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" enabled="NO" title="Zoom In" id="UpT-cO-jm2">
+                        <barButtonItem key="leftBarButtonItem" enabled="NO" title="Zoom In" image="plus.magnifyingglass" catalog="system" id="UpT-cO-jm2">
                             <connections>
                                 <action selector="zoomIn" destination="BYZ-38-t0r" id="EJO-Au-TFi"/>
                             </connections>
@@ -81,7 +81,7 @@
                                 <action selector="segmentedControlValueChangedWithSender:" destination="BYZ-38-t0r" eventType="valueChanged" id="XdU-pz-QdV"/>
                             </connections>
                         </segmentedControl>
-                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Zoom Out" id="Ba7-Yc-Er0">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Zoom Out" image="minus.magnifyingglass" catalog="system" id="Ba7-Yc-Er0">
                             <connections>
                                 <action selector="zoomOut" destination="BYZ-38-t0r" id="GYw-Id-nkx"/>
                             </connections>
@@ -94,6 +94,7 @@
                         <outlet property="recenterBarButtonItem" destination="KUg-ZV-eSM" id="dLz-G9-nMR"/>
                         <outlet property="resetBarButtonItem" destination="JyD-Id-ByR" id="TXo-62-ZhX"/>
                         <outlet property="sceneView" destination="QUL-x0-paX" id="bDa-pW-Nt5"/>
+                        <outlet property="segmentedControl" destination="oht-eL-NVp" id="Jaw-aC-QaZ"/>
                         <outlet property="sourceBarButtonItem" destination="eyZ-Dx-oSH" id="XEy-eP-7y4"/>
                         <outlet property="zoomInBarButtonItem" destination="UpT-cO-jm2" id="cHZ-D6-MhV"/>
                         <outlet property="zoomOutBarButtonItem" destination="Ba7-Yc-Er0" id="iLQ-Cp-eBm"/>
@@ -130,6 +131,8 @@
         <image name="arkit" catalog="system" width="128" height="128"/>
         <image name="globe" catalog="system" width="128" height="121"/>
         <image name="map" catalog="system" width="128" height="110"/>
+        <image name="minus.magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="plus.magnifyingglass" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -16,31 +16,83 @@ import UIKit
 import ArcGIS
 import ExternalAccessory
 
-// MARK: - UI Actions
+// MARK: - UI and Actions
 
 extension ViewController {
-    @IBAction func segmentedControlValueChanged(sender: UISegmentedControl) {
-        switch sender.selectedSegmentIndex {
+    enum DemoMode {
+        case mapView, sceneView, arView
+    }
+    
+    var currentView: DemoMode {
+        switch segmentedControl.selectedSegmentIndex {
         case 0:
+            return .mapView
+        case 1:
+            return .sceneView
+        case 2:
+            return .arView
+        default:
+            fatalError("Unknown mode. Please check the segmented control binding.")
+        }
+    }
+    
+    func setupSceneViewObservation() {
+        sceneViewObservation = sceneView.observe(\.isHidden, options: .initial) { sceneView, _ in
+            DispatchQueue.main.async { [self] in
+                if sceneView.isHidden {
+                    // Reset displays.
+                    currentLocationGraphicsOverlay.graphics.removeAllObjects()
+                    satellitesGraphicsOverlay.graphics.removeAllObjects()
+                } else {
+                    if demoStarted {
+                        // Add current location graphic to the overlay.
+                        currentLocationGraphic.geometry = mapView.locationDisplay.location?.position
+                        currentLocationGraphicsOverlay.graphics.add(currentLocationGraphic)
+                        // Zoom out to see the satellites in the scene view.
+                        zoomOut()
+                    }
+                }
+            }
+        }
+    }
+    
+    func setupARViewObservation() {
+        arViewObservation = arView.observe(\.isHidden, options: .initial) { arView, _ in
+            DispatchQueue.main.async { [self] in
+                if arView.isHidden {
+                    if demoStarted {
+                        arView.stopTracking()
+                        arGraphicsOverlay.graphics.removeAllObjects()
+                    }
+                } else {
+                    if demoStarted {
+                        arView.startTracking(.continuous)
+                    }
+                }
+            }
+        }
+    }
+    
+    @IBAction func segmentedControlValueChanged(sender: UISegmentedControl) {
+        switch currentView {
+        case .mapView:
             mapView.isHidden = false
             sceneView.isHidden = true
             arView.isHidden = true
             zoomInBarButtonItem.isEnabled = false
             zoomOutBarButtonItem.isEnabled = false
-        case 1:
+        case .sceneView:
             mapView.isHidden = true
             sceneView.isHidden = false
             arView.isHidden = true
             zoomInBarButtonItem.isEnabled = true
             zoomOutBarButtonItem.isEnabled = true
-        case 2:
+        case .arView:
             mapView.isHidden = true
             sceneView.isHidden = true
             arView.isHidden = false
             zoomInBarButtonItem.isEnabled = false
             zoomOutBarButtonItem.isEnabled = false
-        default:
-            return
         }
     }
     
@@ -83,6 +135,8 @@ extension ViewController {
             nmeaLocationDataSource = AGSNMEALocationDataSource(receiverSpatialReference: .wgs84())
             nmeaLocationDataSource.locationChangeHandlerDelegate = self
             mockNMEADataSource.delegate = self
+            mockNMEADataSource.start()
+            arView.clippingDistance = 0
             start()
         }
         alertController.addAction(mockDataSourceAction)
@@ -93,23 +147,27 @@ extension ViewController {
     }
     
     func start() {
+        demoStarted = true
         // Set NMEA location data source for location display.
         mapView.locationDisplay.dataSource = nmeaLocationDataSource
-        arView.locationDataSource = nmeaLocationDataSource
         // Set buttons states.
         sourceBarButtonItem.isEnabled = false
         resetBarButtonItem.isEnabled = true
         // Start the data source and location display.
-        mockNMEADataSource.start()
         mapView.locationDisplay.start()
-        arView.startTracking(.continuous)
-        // Recenter the map and set pan mode.
-        recenter()
-        // Add current location graphic to the overlay.
-        currentLocationGraphic.geometry = mapView.locationDisplay.location?.position
-        currentLocationGraphicsOverlay.graphics.add(currentLocationGraphic)
-        if !sceneView.isHidden {
+        
+        switch currentView {
+        case .mapView:
+            // Recenter the map and set pan mode.
+            recenter()
+        case .sceneView:
+            // Add current location graphic to the overlay.
+            currentLocationGraphic.geometry = mapView.locationDisplay.location?.position
+            currentLocationGraphicsOverlay.graphics.add(currentLocationGraphic)
+            // Zoom out to see the satellites in the scene view.
             zoomOut()
+        case .arView:
+            arView.startTracking(.continuous)
         }
     }
     
@@ -125,6 +183,7 @@ extension ViewController {
     }
     
     @IBAction func reset() {
+        demoStarted = false
         // Reset buttons states.
         resetBarButtonItem.isEnabled = false
         sourceBarButtonItem.isEnabled = true
@@ -133,16 +192,24 @@ extension ViewController {
         mapView.locationDisplay.autoPanMode = .off
         // Stop the location display, which in turn stop the data source.
         mapView.locationDisplay.stop()
-        arView.stopTracking()
         // Pause the mock data generation.
         mockNMEADataSource.stop()
         // Disconnect from the mock data updates.
         mockNMEADataSource.delegate = nil
         // Reset NMEA location data source.
         nmeaLocationDataSource = nil
-        // Reset displays.
-        currentLocationGraphicsOverlay.graphics.removeAllObjects()
-        satellitesGraphicsOverlay.graphics.removeAllObjects()
+        
+        switch currentView {
+        case .mapView:
+            return
+        case .sceneView:
+            // Reset displays.
+            currentLocationGraphicsOverlay.graphics.removeAllObjects()
+            satellitesGraphicsOverlay.graphics.removeAllObjects()
+            zoomOut()
+        case .arView:
+            arView.stopTracking()
+        }
     }
     
     @IBAction func zoomIn() {
@@ -164,6 +231,7 @@ extension ViewController {
         if let dataSource = AGSNMEALocationDataSource(eaAccessory: connectedAccessory, protocol: protocolString) {
             nmeaLocationDataSource = dataSource
             nmeaLocationDataSource.locationChangeHandlerDelegate = self
+            arView.clippingDistance = 200
             start()
         } else {
             presentAlert(message: "NMEA location data source failed to initialize from the accessory!")
@@ -256,12 +324,59 @@ extension ViewController {
         return satellitesGraphics
     }
     
-    func makeLeadersGraphics(satellitePoints: [AGSPoint], locationPoint: AGSPoint) -> [AGSGraphic] {
+    func makeLeadersGraphics(satellitePoints: [AGSPoint], groundLocationPoint: AGSPoint) -> [AGSGraphic] {
         let leadersSymbol = AGSSimpleLineSymbol(style: .dash, color: .systemRed, width: 0.3)
         let leadersGraphics: [AGSGraphic] = satellitePoints.map { point in
             // Add a leader line between each satellite and the ground location.
-            let leaderLine = AGSPolyline(points: [point, locationPoint])
+            let leaderLine = AGSPolyline(points: [point, groundLocationPoint])
             return AGSGraphic(geometry: leaderLine, symbol: leadersSymbol)
+        }
+        return leadersGraphics
+    }
+    
+    /// A not-in-use method to create satellite graphics for AR view.
+    ///
+    /// - Note: There are limitations for the furthest visible distance of graphics
+    /// in an AR view. which makes it not possible to draw the satellites
+    /// in their real positions. One workaround is to position the satellites
+    /// at a fraction along the POV line. However, that would introduce
+    /// the parallax effect, which makes it visually confusing
+    /// in an AR experience. Therefore, the satellites are not displayed here.
+    func makeARSatellitesGraphics(satellitePoints: [AGSPoint], groundLocationPoint: AGSPoint) -> [AGSGraphic] {
+        let leadersLines: [AGSPolyline] = satellitePoints.map { satellitePoint in
+            // The leader line between the ground location and each satellite.
+            AGSPolyline(points: [groundLocationPoint, satellitePoint])
+        }
+        let symbol = AGSSimpleMarkerSceneSymbol(style: .diamond, color: .orange, height: 50, width: 50, depth: 50, anchorPosition: .center)
+        let satellitesGraphics: [AGSGraphic] = leadersLines.map { line in
+            // The distance is represented in percentage. Possible values range
+            // from 0.0001% to around 1%, given the orbit distance ~20200 km.
+            let closerPoint = AGSGeometryEngine.point(along: line, distance: 1e-3)
+            return AGSGraphic(geometry: closerPoint, symbol: symbol)
+        }
+        return satellitesGraphics
+    }
+    
+    func makeARLeadersGraphics(satellites: [(info: AGSNMEASatelliteInfo, point: AGSPoint)], groundLocationPoint: AGSPoint) -> [AGSGraphic] {
+        let redStrokeSymbolLayer = AGSSolidStrokeSymbolLayer(
+            width: 0.5,
+            color: .systemRed,
+            geometricEffects: [],
+            lineStyle3D: .tube
+        )
+        let grayStrokeSymbolLayer = AGSSolidStrokeSymbolLayer(
+            width: 3,
+            color: .systemGray,
+            geometricEffects: [],
+            lineStyle3D: .strip
+        )
+        let inUseSymbol = AGSMultilayerPolylineSymbol(symbolLayers: [redStrokeSymbolLayer])
+        let spareSymbol = AGSMultilayerPolylineSymbol(symbolLayers: [grayStrokeSymbolLayer])
+        let leadersGraphics: [AGSGraphic] = satellites.map { info, satellitePoint in
+            // Add a leader line between each satellite and the ground location.
+            let leaderLine = AGSPolyline(points: [groundLocationPoint, satellitePoint])
+            let symbol = info.inUse ? inUseSymbol : spareSymbol
+            return AGSGraphic(geometry: leaderLine, symbol: symbol)
         }
         return leadersGraphics
     }

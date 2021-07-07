@@ -47,10 +47,16 @@ class ViewController: UIViewController {
     
     @IBOutlet var arView: ArcGISARView! {
         didSet {
-            sceneView.graphicsOverlays.addObjects(from: [satellitesGraphicsOverlay])
+            arView.isHidden = true
+            arView.sceneView.scene = AGSScene()
+            // Hide the empty base surface to see the graphics better.
+            arView.sceneView.scene?.baseSurface?.opacity = 0
+            arView.sceneView.graphicsOverlays.addObjects(from: [arGraphicsOverlay])
             // Turn the space and atmosphere effects on for an immersive experience.
-            sceneView.spaceEffect = .transparent
-            sceneView.atmosphereEffect = .none
+            arView.sceneView.spaceEffect = .transparent
+            arView.sceneView.atmosphereEffect = .none
+            // Configure location data source.
+            arView.locationDataSource = AGSCLLocationDataSource()
         }
     }
     
@@ -64,6 +70,8 @@ class ViewController: UIViewController {
     @IBOutlet var zoomInBarButtonItem: UIBarButtonItem!
     /// The button to zoom out the scene view.
     @IBOutlet var zoomOutBarButtonItem: UIBarButtonItem!
+    /// The segmented control to choose a mode.
+    @IBOutlet var segmentedControl: UISegmentedControl!
     
     // MARK: Instance properties
     
@@ -73,12 +81,27 @@ class ViewController: UIViewController {
         overlay.sceneProperties?.surfacePlacement = .absolute
         return overlay
     }()
+    /// The graphics overlay to draw graphics in an AR view.
+    let arGraphicsOverlay: AGSGraphicsOverlay = {
+        let overlay = AGSGraphicsOverlay()
+        overlay.sceneProperties?.surfacePlacement = .absolute
+        return overlay
+    }()
     /// The graphic overlay to draw current location in a scene, to mimic the location display in the map.
     let currentLocationGraphicsOverlay = AGSGraphicsOverlay()
     /// An orange circle showing the current location in a scene.
     let currentLocationGraphic = AGSGraphic(
         geometry: nil,
-        symbol: AGSSimpleMarkerSymbol(style: .circle, color: .orange, size: 15)
+        symbol: AGSSimpleMarkerSymbol(style: .circle, color: .systemBlue, size: 15)
+    )
+    /// A scene symbol to represent the current location.
+    let currentLocationSymbol = AGSSimpleMarkerSceneSymbol(
+        style: .sphere,
+        color: .systemBlue,
+        height: 5,
+        width: 5,
+        depth: 5,
+        anchorPosition: .center
     )
     
     /// An NMEA location data source, to parse NMEA data.
@@ -95,6 +118,10 @@ class ViewController: UIViewController {
         .object(forInfoDictionaryKey: "UISupportedExternalAccessoryProtocols")
         .flatMap { $0 as? [String] }
         .map(Set.init) ?? []
+    
+    var demoStarted = false
+    var sceneViewObservation: NSKeyValueObservation?
+    var arViewObservation: NSKeyValueObservation?
     
     // MARK: Instance methods
     
@@ -120,7 +147,13 @@ class ViewController: UIViewController {
         // 2. Magical quaternions
         let latLonAxis = simd_normalize(sphericalToCartesian(r: r1, theta: .pi / 2 - latitude, phi: longitude))
         // Find the vector between device location and North point (z axis)
-        var thirdAxis = simd_normalize(simd_double3(0, 0, 1 / latLonAxis.z) - latLonAxis)
+        var thirdAxis: simd_double3
+        if latLonAxis.z == 0 {
+            // To avoid division by zero error.
+            thirdAxis = simd_double3(0, 0, 1)
+        } else {
+            thirdAxis = simd_normalize(simd_double3(0, 0, 1 / latLonAxis.z) - latLonAxis)
+        }
         // Rotate to the azimuth angle
         let quaternionAzimuth = simd_quatd(
             angle: 1.5 * .pi - azimuth,
@@ -160,7 +193,28 @@ class ViewController: UIViewController {
         // Add circles to represent the location of satellites.
         satellitesGraphicsOverlay.graphics.addObjects(from: makeSatellitesGraphics(satellites: Array(zip(satelliteInfo, satellitePoints))))
         // Add leader lines between current location and satellites.
-        satellitesGraphicsOverlay.graphics.addObjects(from: makeLeadersGraphics(satellitePoints: satellitePoints, locationPoint: currentLocationPoint))
+        satellitesGraphicsOverlay.graphics.addObjects(from: makeLeadersGraphics(satellitePoints: satellitePoints, groundLocationPoint: currentLocationPoint))
+    }
+    
+    /// Update the graphics with current location in the AR View's scene.
+    func updateGraphicsInARView(with satelliteInfo: [AGSNMEASatelliteInfo]) {
+        guard let p = mapView.locationDisplay.location?.position else { return }
+        // Get rid of the `vcsWkid` property of the original location.
+        let currentLocationPoint = AGSPointMake3D(p.x, p.y, p.z, p.m, .wgs84())
+        currentLocationGraphic.geometry = currentLocationPoint
+        // 2. update the satellite graphics.
+        let satellitePoints = satelliteInfo.map { satellite in
+            satellitePosition(
+                deviceLocation: currentLocationPoint,
+                elevation: Measurement(value: satellite.elevation, unit: UnitAngle.degrees),
+                azimuth: Measurement(value: satellite.azimuth, unit: UnitAngle.degrees)
+            )
+        }
+        arGraphicsOverlay.graphics.removeAllObjects()
+        // Add the current location as a sphere to the AR view.
+        arGraphicsOverlay.graphics.add(AGSGraphic(geometry: currentLocationPoint, symbol: currentLocationSymbol))
+        // Add leader lines to point at the directions of satellites.
+        arGraphicsOverlay.graphics.addObjects(from: makeARLeadersGraphics(satellites: Array(zip(satelliteInfo, satellitePoints)), groundLocationPoint: currentLocationPoint))
     }
     
     // MARK: UIViewController
@@ -168,6 +222,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         sourceBarButtonItem.isEnabled = true
+        setupSceneViewObservation()
+        setupARViewObservation()
     }
 }
 
@@ -181,9 +237,14 @@ extension ViewController: AGSNMEALocationDataSourceDelegate {
     
     func nmeaLocationDataSource(_ NMEALocationDataSource: AGSNMEALocationDataSource, satellitesDidChange satellites: [AGSNMEASatelliteInfo]) {
         // When new satellite info is received from the device, we should
-        // update the graphics in a visible scene.
-        if !sceneView.isHidden {
+        // update the graphics in the visible views accordingly.
+        switch currentView {
+        case .sceneView:
             updateGraphicsInScene(with: satellites)
+        case .arView:
+            updateGraphicsInARView(with: satellites)
+        default:
+            return
         }
     }
 }
