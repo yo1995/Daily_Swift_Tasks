@@ -103,7 +103,7 @@ extension ViewController {
             preferredStyle: .actionSheet
         )
         // Add real data source to the options.
-        let realDataSourceAction = UIAlertAction(title: "Device", style: .default) { [self] _ in
+        let realDataSourceAction = UIAlertAction(title: "Bluetooth Device", style: .default) { [self] _ in
             if let (accessory, protocolString) = firstSupportedAccessoryWithProtocol() {
                 // Use the supported accessory directly if it's already connected.
                 accessoryDidConnect(connectedAccessory: accessory, protocolString: protocolString)
