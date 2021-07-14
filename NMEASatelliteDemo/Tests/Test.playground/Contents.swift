@@ -86,7 +86,6 @@ func snippet(longitude: Double, latitude: Double, elevation: Double, azimuth: Do
 // MARK: - Testcases Below
 
 class SatelliteCoordinatesTests: XCTestCase {
-    
     let accuracy = 1e-3
     
     override func setUp() {
