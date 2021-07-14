@@ -215,6 +215,8 @@ class ViewController: UIViewController {
         arGraphicsOverlay.graphics.add(AGSGraphic(geometry: currentLocationPoint, symbol: currentLocationSymbol))
         // Add leader lines to point at the directions of satellites.
         arGraphicsOverlay.graphics.addObjects(from: makeARLeadersGraphics(satellites: Array(zip(satelliteInfo, satellitePoints)), groundLocationPoint: currentLocationPoint))
+        // Not in-use: draw the satellite symbols along the leader lines.
+        // arGraphicsOverlay.graphics.addObjects(from: makeARSatellitesGraphics(satellitePoints: satellitePoints, groundLocationPoint: currentLocationPoint))
     }
     
     // MARK: UIViewController

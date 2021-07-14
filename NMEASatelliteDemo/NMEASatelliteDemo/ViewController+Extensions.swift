@@ -136,7 +136,7 @@ extension ViewController {
             nmeaLocationDataSource.locationChangeHandlerDelegate = self
             mockNMEADataSource.delegate = self
             mockNMEADataSource.start()
-            arView.clippingDistance = 0
+            // arView.clippingDistance = 0
             start()
         }
         alertController.addAction(mockDataSourceAction)
@@ -231,7 +231,7 @@ extension ViewController {
         if let dataSource = AGSNMEALocationDataSource(eaAccessory: connectedAccessory, protocol: protocolString) {
             nmeaLocationDataSource = dataSource
             nmeaLocationDataSource.locationChangeHandlerDelegate = self
-            arView.clippingDistance = 200
+            // arView.clippingDistance = 200
             start()
         } else {
             presentAlert(message: "NMEA location data source failed to initialize from the accessory!")
@@ -347,11 +347,11 @@ extension ViewController {
             // The leader line between the ground location and each satellite.
             AGSPolyline(points: [groundLocationPoint, satellitePoint])
         }
-        let symbol = AGSSimpleMarkerSceneSymbol(style: .diamond, color: .orange, height: 50, width: 50, depth: 50, anchorPosition: .center)
+        let symbol = AGSSimpleMarkerSymbol(style: .circle, color: .red, size: 10)
         let satellitesGraphics: [AGSGraphic] = leadersLines.map { line in
             // The distance is represented in percentage. Possible values range
             // from 0.0001% to around 1%, given the orbit distance ~20200 km.
-            let closerPoint = AGSGeometryEngine.point(along: line, distance: 1e-3)
+            let closerPoint = AGSGeometryEngine.point(along: line, distance: 1)
             return AGSGraphic(geometry: closerPoint, symbol: symbol)
         }
         return satellitesGraphics
