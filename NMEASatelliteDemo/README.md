@@ -12,9 +12,13 @@ It has 3 modes
 - 🌎 Scene mode, which plots the satellite positions in the space in a 3D scene
 - 🔭 AR mode, which add leader lines in the AR camera to show the directions of satellites
 
-|GPS on iPad|Map|Scene|AR|
-|-|-|-|-|
-|![GPS satellites in 3D](screenshots/GPS.png)|![map](screenshots/map.png)|![scene](screenshots/scene.png)|![AR](screenshots/AR.png)|
+|Map|Scene|AR|
+|-|-|-|
+|![map](screenshots/map.png)|![scene](screenshots/scene.png)|![AR](screenshots/AR.png)|
+
+|GPS on iPad|
+|-|
+|![GPS satellites in 3D](screenshots/GPS.png)|
 
 ## Description
 
