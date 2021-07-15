@@ -6,9 +6,21 @@ Get the satellite coordinates in Geographic Coordinate System and render their p
 
 This app demonstrates how to convert the azimuth-elevation coordinates notation of a satellite into latitude longitude coordinates.
 
-## Description
+It has 3 modes
 
-![GPS satellites in 3D](GPS.png)
+- 🗺 **Map mode** leverages the ArcGIS Runtime SDK to receive NMEA sentences from a GPS receiver and show the location on a map
+- 🌎 **Scene mode** plots the satellite positions in the space in a 3D scene
+- 🔭 **AR mode** adds leader lines in the AR camera to show the directions of satellites
+
+|🗺 Map|🌎 Scene|🔭 AR|
+|-|-|-|
+|![map](screenshots/map.png)|![scene](screenshots/scene.png)|![AR](screenshots/AR.png)|
+
+|🛰 GPS on iPad|
+|-|
+|![GPS satellites in 3D](screenshots/GPS.png)|
+
+## Description
 
 This app converts azimuth-elevation coordinates of GPS satellites into lat-lon WGS84 coordinates.
 
