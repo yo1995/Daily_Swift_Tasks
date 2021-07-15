@@ -8,15 +8,15 @@ This app demonstrates how to convert the azimuth-elevation coordinates notation 
 
 It has 3 modes
 
-- 🗺 Map mode, which leverages the ArcGIS Runtime SDK to receive NMEA sentences from a GPS receiver and show the location on a map
-- 🌎 Scene mode, which plots the satellite positions in the space in a 3D scene
-- 🔭 AR mode, which add leader lines in the AR camera to show the directions of satellites
+- 🗺 **Map mode** leverages the ArcGIS Runtime SDK to receive NMEA sentences from a GPS receiver and show the location on a map
+- 🌎 **Scene mode** plots the satellite positions in the space in a 3D scene
+- 🔭 **AR mode** adds leader lines in the AR camera to show the directions of satellites
 
-|Map|Scene|AR|
+|🗺 Map|🌎 Scene|🔭 AR|
 |-|-|-|
 |![map](screenshots/map.png)|![scene](screenshots/scene.png)|![AR](screenshots/AR.png)|
 
-|GPS on iPad|
+|🛰 GPS on iPad|
 |-|
 |![GPS satellites in 3D](screenshots/GPS.png)|
 
