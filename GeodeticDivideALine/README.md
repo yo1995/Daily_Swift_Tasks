@@ -1,4 +1,4 @@
-# Geodetic Division of A Line
+# Segmentation of A Geodetic Line
 
 ![demo](title.png)
 
