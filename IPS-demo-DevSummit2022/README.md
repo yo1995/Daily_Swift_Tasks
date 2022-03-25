@@ -12,3 +12,4 @@ Please see the plenary video coverage during 2022 Esri Developer Summit here: ht
 - IPS sample: https://github.com/Esri/arcgis-runtime-samples-ios/tree/main/arcgis-ios-sdk-samples/Maps/Show%20device%20location%20using%20indoor%20positioning
 - Indoor positioning for iOS apps: https://developers.arcgis.com/ios/device-location/indoor-positioning/
 - IPS and get started: https://www.esri.com/en-us/arcgis/products/arcgis-ips/ and https://doc.arcgis.com/en/ips/latest/get-started/
+- Floor awareness sample: https://github.com/Esri/arcgis-runtime-samples-ios/tree/main/arcgis-ios-sdk-samples/Maps/Browse%20building%20floors
