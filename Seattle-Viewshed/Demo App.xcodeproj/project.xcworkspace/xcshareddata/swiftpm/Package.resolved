@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "arcgis-runtime-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Esri/arcgis-runtime-ios",
+      "state" : {
+        "revision" : "8fd5cae1ff5b3e0203d8dc96d17b4a3768a71720",
+        "version" : "100.15.0"
+      }
+    }
+  ],
+  "version" : 2
+}
