@@ -12,7 +12,7 @@ This app demonstrates how easy it is to write a native and performant 3D analysi
 |-|-|
 |![Fireworks](1.webp)|![Lake Union](2.webp)|
 
-I went to Seattle for the first time during the July 4th weekend. My friends and I wanted to find the best spot to observe the fireworks 🎆 in Seattle, which is set off in the middle of Union Lake this year. Initially we planned to go to one of the taller Amazon buildings, but that is such a hassle; we then explored options such as Space Needle, top floor of his apartment building, SLU waterfront.
+I went to Seattle for the first time during the July 4th weekend. My friends and I wanted to find the best spot to observe the fireworks 🎆 in Seattle, which is set off in the middle of Lake Union this year. Initially we planned to go to one of the taller Amazon buildings, but that is such a hassle; we then explored options such as Space Needle, top floor of his apartment building, SLU waterfront.
 
 Eventually I decided to write an app to scientifically settle the discussion by using a 3D viewshed that shows the view obstruction situation near downtown Seattle. Thanks to City of Seattle's GIS data, I manage to show the result with 3D building models.
 
