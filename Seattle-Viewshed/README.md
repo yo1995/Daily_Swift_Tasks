@@ -8,9 +8,9 @@ This app demonstrates how easy it is to write a native and performant 3D analysi
 
 ## Background
 
-|Fireworks|Union Lake |
+|Fireworks|Lake Union|
 |-|-|
-|![Fireworks](1.webp)|![Union Lake ](2.webp)|
+|![Fireworks](1.webp)|![Lake Union](2.webp)|
 
 I went to Seattle for the first time during the July 4th weekend. My friends and I wanted to find the best spot to observe the fireworks 🎆 in Seattle, which is set off in the middle of Union Lake this year. Initially we planned to go to one of the taller Amazon buildings, but that is such a hassle; we then explored options such as Space Needle, top floor of his apartment building, SLU waterfront.
 
