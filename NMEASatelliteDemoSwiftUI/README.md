@@ -16,7 +16,11 @@ It has 3 modes
 
 This app converts azimuth-elevation coordinates of GPS satellites into lat-lon WGS84 coordinates.
 
-## `$GPGSV` Sentence in NMEA Specs
+### Usage
+
+Follow the [Create an API key](https://developers.arcgis.com/documentation/security-and-authentication/api-key-authentication/tutorials/create-an-api-key/) tutorial to obtain the API key access token for the Maps SDK to run the app.
+
+### `$GPGSV` Sentence in NMEA Specs
 
 A GNSS/GPS receiver periodically reports the satellites information with NMEA sentences. A `$GPGSV` sentence follows the GNSS Satellites In View specification. Per its spec doc:
 
