@@ -16,7 +16,11 @@ It has 3 modes
 
 This app converts azimuth-elevation coordinates of GPS satellites into lat-lon WGS84 coordinates.
 
-## `$GPGSV` Sentence in NMEA Specs
+### Usage
+
+Follow the [Create an API key](https://developers.arcgis.com/documentation/security-and-authentication/api-key-authentication/tutorials/create-an-api-key/) tutorial to obtain the API key access token for the Maps SDK to run the app.
+
+### `$GPGSV` Sentence in NMEA Specs
 
 A GNSS/GPS receiver periodically reports the satellites information with NMEA sentences. A `$GPGSV` sentence follows the GNSS Satellites In View specification. Per its spec doc:
 
@@ -25,6 +29,34 @@ azimuth, and SNR value. The GSV sentence contains four satellites maximum per tr
 total number of sentences being transmitted and the sentence number being transmitted are indicated in
 the first two fields.
 
+## References
+
+GeoGebra 3D plot of the problem: https://www.geogebra.org/calculator/gzpa7gqe
+
+### Quaternions and Trigonometry
+
+1. Working with Quaternions: https://developer.apple.com/documentation/accelerate/working_with_quaternions
+1. Working with Matrices: https://developer.apple.com/documentation/accelerate/working_with_matrices
+1. Understanding Quaternions: https://www.3dgep.com/understanding-quaternions/
+1. What are the "azimuth and elevation" of a satellite? https://www.celestis.com/resources/faq/what-are-the-azimuth-and-elevation-of-a-satellite/
+
+### Concepts
+
+1. Wiki for coordinate system conversion: https://en.wikipedia.org/wiki/Spherical_coordinate_system#Cartesian_coordinates
+1. Wiki for rotation matrix: https://en.wikipedia.org/wiki/Rotation_matrix#Rotation_matrix_from_axis_and_angle
+1. `GPGSV` sentence definition: http://aprs.gids.nl/nmea/#gsv
+1. GPS satellite orbit altitude: https://www.gps.gov/systems/gps/space
+1. Get satellite *lon/lat* from NMEA sentence: https://gis.stackexchange.com/questions/274941
+1. Determining GPS Position from Elevation, Azimuth, SNR: https://gis.stackexchange.com/questions/220210
+
+### Code
+
+1. Michael's quaternion implementation in Python: https://github.com/fogleman/pg/blob/master/pg/matrix.py#L196
+1. Michael's GPS satellite visuals (with flaws): http://www.michaelfogleman.com/gps/
+1. Apple SIMD library: https://developer.apple.com/documentation/accelerate/simd
+1. .NET sample for GPS satellites in view in 2D: https://github.com/Esri/arcgis-maps-sdk-dotnet-demos/tree/main/src/ExternalNmeaGPS
+
 ## Keywords
 
 ArcGIS Maps SDK, ArcGIS Runtime, iOS, Swift, Satellite, NMEA, Azimuth, Elevation, 3D, GPS, GNSS, GPGSV
+
