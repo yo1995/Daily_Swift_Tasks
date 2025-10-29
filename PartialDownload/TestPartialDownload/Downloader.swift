@@ -34,6 +34,8 @@ class DownloadManager: NSObject, URLSessionDownloadDelegate {
             self.resumeData = data
         })
         isDownloading = false
+        // Reset progress so it handles both partial and restart.
+        progress = .zero
         print("\nDownload paused.")
     }
     
