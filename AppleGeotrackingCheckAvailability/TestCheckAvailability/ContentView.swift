@@ -41,8 +41,10 @@ struct ContentView: View {
                 }
                 let graphics = await queryRiversideFishnetPoints()
                 riversideGraphicsOverlay.addGraphics(graphics)
-                let extent = GeometryEngine.combineExtents(of: graphics.map(\.geometry!))!.expanded(by: 1.3)
-                viewpoint = Viewpoint(boundingGeometry: extent)
+                let geometries = graphics.compactMap { $0.geometry }
+                if let extent = GeometryEngine.combineExtents(of: geometries)?.expanded(by: 1.3) {
+                    viewpoint = Viewpoint(boundingGeometry: extent)
+                }
                 // Done checking availability.
                 availability = nil
             }
