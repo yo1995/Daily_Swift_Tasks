@@ -12,6 +12,8 @@ This app does…
 
 Green dots represent geotracking available locations; red dots are unavailable.
 
+**Has to be run on a real device**
+
 ### Background
 
 With ARKit 4, Apple introduced Street View-based AR location services, which more accurately determine the current location by combining images captured by the camera, the device's GPS, and map topology information. Because Street View maps are "geo-referenced" — meaning all Street View images can be considered to have accurate geographical coordinates, visual algorithms can match the camera's location coordinates by comparing the camera footage with the Street View map.
