@@ -1,0 +1,15 @@
+{
+  "originHash" : "0f234d7216de3b4d4db3ef196a5d8f55a7d970b7fd012e82d6c83e2f51037576",
+  "pins" : [
+    {
+      "identity" : "arcgis-maps-sdk-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Esri/arcgis-maps-sdk-swift.git",
+      "state" : {
+        "revision" : "4fef6fb832c21782616cb8d8d66c964c1885f238",
+        "version" : "200.8.0"
+      }
+    }
+  ],
+  "version" : 3
+}
